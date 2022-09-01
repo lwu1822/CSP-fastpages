@@ -96,6 +96,7 @@ window.onload = wrap_img;
 
   <div class="post-content e-content" itemprop="articleBody">
     <ul id="toc" class="section-nav">
+<li class="toc-entry toc-h6"><a href="#things-for-me-to-contemplate-on">Things for me to contemplate on:</a></li>
 </ul><p>While I was setting up my fastpages blog, I noticed this interesting line of code in <code class="language-plaintext highlighter-rouge">index.html</code>.</p>
 
 <p><img src="/CSP-fastpages/images/index_html_code.png" alt="" title="image markdown code"></p>
@@ -108,7 +109,14 @@ window.onload = wrap_img;
 
 <p>Basically, <code class="language-plaintext highlighter-rouge">baseurl</code> is the directory under the URL of the website. So for example, this blog’s URL is <code class="language-plaintext highlighter-rouge">lwu1822.github.io</code>, and the baseurl is <code class="language-plaintext highlighter-rouge">CSP-fastpages</code>.</p>
 
-<p>So instead of typing out `<img src="lwu1822.github.io/CSP-fastpages/" alt=""></p>
+<p>So instead of typing out <code class="language-plaintext highlighter-rouge">![](lwu1822.github.io/CSP-fastpages/images/diagram.png)</code>, I can instead just do <code class="language-plaintext highlighter-rouge">![](/CSP-fastpages/images/diagram.png)</code>. Saves a lot of typing.</p>
+
+<p>Pretty cool, huh? 😊</p>
+
+<h6 id="things-for-me-to-contemplate-on">
+<a class="anchor" href="#things-for-me-to-contemplate-on" aria-hidden="true"><span class="octicon octicon-link"></span></a>Things for me to contemplate on:</h6>
+
+<p>I noticed on the provided <a href="https://lwu1822.github.io/CSP-fastpages/jupyter/2020/02/20/test.html">Fastpages Notebook Blog Post</a>, you can add an image without the baseurl. For example, you can specify an image with <code class="language-plaintext highlighter-rouge">![](images/diagram.png)</code>. Not sure why that works, but I’m guessing it has something to with Jupyter Notebooks.</p>
 
   </div><a class="u-url" href="/CSP-fastpages/jekyll/2022/08/31/jekyll.html" hidden></a>
 </article>
