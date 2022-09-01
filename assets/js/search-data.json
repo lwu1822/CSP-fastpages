@@ -3,7 +3,7 @@
     
         "post0": {
             "title": "Jekyll",
-            "content": "While I was setting up my fastpages blog, I noticed this interesting line of code in index.html. . . And I thought, *hey, this is interesting, what does /CSP-fastpages do?** . After some googling, I found that /CSP-fastpages wasn’t something in Markdown. Turns out it’s actually Jekyll syntax. . So what does /CSP-fastpages do? .",
+            "content": "While I was setting up my fastpages blog, I noticed this interesting line of code in index.html. . . And I thought, hey, this is interesting, what does /CSP-fastpages do? . After some googling, I found that /CSP-fastpages wasn’t something in Markdown. Turns out it’s actually Jekyll syntax. . So what does /CSP-fastpages do? . Basically, baseurl is the directory under the URL of the website. So for example, this blog’s URL is lwu1822.github.io, and the baseurl is CSP-fastpages. . So instead of typing out ` .",
             "url": "https://lwu1822.github.io/CSP-fastpages/jekyll/2022/08/31/jekyll.html",
             "relUrl": "/jekyll/2022/08/31/jekyll.html",
             "date": " • Aug 31, 2022"
