@@ -118,8 +118,10 @@ window.onload = wrap_img;
 
 <p>I noticed on the provided <a href="https://lwu1822.github.io/CSP-fastpages/jupyter/2020/02/20/test.html">Fastpages Notebook Blog Post</a>, you can add an image without the baseurl. For example, you can specify an image with <code class="language-plaintext highlighter-rouge">![](images/diagram.png)</code>. Not sure why that works, but I’m guessing it has something to with Jupyter Notebooks.</p>
 
-<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code>test
-/CSP-fastpages
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+test
+<span class="p">{{</span><span class="w"> </span><span class="nv">site</span><span class="p">.</span><span class="nv">baseurl</span><span class="w"> </span><span class="p">}}</span>
+
 </code></pre></div></div>
 
   </div><a class="u-url" href="/CSP-fastpages/jekyll/2022/08/31/jekyll.html" hidden></a>
