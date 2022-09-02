@@ -123,20 +123,30 @@ window.onload = wrap_img;
 
 <p>So what does  <code class="language-plaintext highlighter-rouge">{{site.baseurl}}</code>  do?</p>
 
-<p>Basically, <code class="language-plaintext highlighter-rouge">baseurl</code> is the directory under the URL of the website. So for example, this blog’s URL is <code class="language-plaintext highlighter-rouge">lwu1822.github.io</code>, and the baseurl is <code class="language-plaintext highlighter-rouge">CSP-fastpages</code>.</p>
+<p>Basically, <code class="language-plaintext highlighter-rouge">baseurl</code> is the directory under the URL of the website. <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup> So for example, this blog’s URL is <code class="language-plaintext highlighter-rouge">lwu1822.github.io</code>, and the baseurl is <code class="language-plaintext highlighter-rouge">CSP-fastpages</code>.</p>
 
 <p>So instead of typing out <code class="language-plaintext highlighter-rouge">![](lwu1822.github.io/CSP-fastpages/images/diagram.png)</code>, I can instead just do  <code class="language-plaintext highlighter-rouge">![]({{site.baseurl}}/images/diagram.png)</code>.  Saves a lot of typing.</p>
 
 <p>Pretty cool, huh? 😊</p>
 
 <p><strong>Something else I encountered while typing this blog</strong> 
-To type  <code class="language-plaintext highlighter-rouge">{{site.baseurl}}</code>  in this Markdown file, apparently you have to use the  <code class="language-plaintext highlighter-rouge">{% raw %}</code>  template.</p>
+To type  <code class="language-plaintext highlighter-rouge">{{site.baseurl}}</code>  in this Markdown file, apparently you have to use the  <code class="language-plaintext highlighter-rouge">{% raw %}</code>  template. <sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup></p>
 
 <h6 id="things-for-me-to-contemplate-on">
 <a class="anchor" href="#things-for-me-to-contemplate-on" aria-hidden="true"><span class="octicon octicon-link"></span></a>Things for me to contemplate on:</h6>
 
 <p>I noticed on the provided <a href="https://lwu1822.github.io/CSP-fastpages/jupyter/2020/02/20/test.html">Fastpages Notebook Blog Post</a>, you can add an image without the baseurl. For example, you can specify an image with <code class="language-plaintext highlighter-rouge">![](images/diagram.png)</code>. Not sure why that works, but I’m guessing it has something to with Jupyter Notebooks.</p>
 
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p><a href="https://mademistakes.com/mastering-jekyll/site-url-baseurl/">baseurl</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p><a href="https://shopify.github.io/liquid/tags/template/">Liquid template language</a> <a href="#fnref:2" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+  </ol>
+</div>
 
   </div><a class="u-url" href="/CSP-fastpages/jekyll-liquid/2022/08/31/jekyll-liquid.html" hidden></a>
 </article>
