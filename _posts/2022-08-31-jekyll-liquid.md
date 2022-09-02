@@ -11,6 +11,7 @@ While I was setting up my fastpages blog, I noticed this interesting line of cod
 ![]({{site.baseurl}}/images/index_html_code.png "code in index.html to insert image")
 
 And I thought, *hey, this is interesting, what does {% raw %} {{site.baseurl}} {% endraw %} do?*
+test 
 
 After some [googling](https://www.google.com/), I found that `{{ site.baseurl }}` wasn't something in Markdown. Turns out it's actually Jekyll syntax. 
 
