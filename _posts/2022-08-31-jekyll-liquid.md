@@ -31,16 +31,16 @@ Pretty cool, huh? 😊
 To type {% raw %} `{{site.baseurl}}` {% endraw %} in this Markdown file, apparently you have to use the {% raw %} `{% raw %}` {% endraw %} and `{{ openTag }} endraw %}` template. [^2]
 
 For example:
-{% raw %}
 ```
-{% raw %} `{{site.baseurl}}` {{ openTag }} endraw %}
+{{ openTag }} raw %} {{site.baseurl}} {{ openTag }} endraw %}
 ```
-{% endraw %}
+
 
 **Also something I encountered just as I was writing the line above**
 
+Noticed how I was able to write `{{ openTag }} endraw %}` above? Unfortunately, it's not that simple to just type it directly into your IDE, like this
 
-###### Things for me to contemplate on:
+###### Things for me to contemplate on: 
 
 I noticed on the provided [Fastpages Notebook Blog Post](https://lwu1822.github.io/CSP-fastpages/jupyter/2020/02/20/test.html), you can add an image without the baseurl. For example, you can specify an image with `![](images/diagram.png)`. Not sure why that works, but I'm guessing it has something to with Jupyter Notebooks.
 
