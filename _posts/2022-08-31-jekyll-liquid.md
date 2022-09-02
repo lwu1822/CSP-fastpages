@@ -6,6 +6,8 @@ categories: [jekyll-liquid]
 title: Jekyll and Liquid
 ---
 
+<p style="font-size: 5px">*this took me hours to research btw*</p>
+
 While I was setting up my fastpages blog, I noticed this interesting line of code in `index.html`. 
 
 ![]({{site.baseurl}}/images/index_html_code.png "code in index.html to insert image")
