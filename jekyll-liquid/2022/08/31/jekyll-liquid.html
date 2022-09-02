@@ -117,20 +117,20 @@ window.onload = wrap_img;
 
 <p><img src="/CSP-fastpages/images/index_html_code.png" alt="" title="code in index.html to insert image"></p>
 
-<p>And I thought, <em>hey, this is interesting, what does  {{site.baseurl}}  do?</em>
-test</p>
+<p>And I thought, <em>hey, this is interesting, what does  {{site.baseurl}}  do?</em></p>
 
-<p>After some <a href="https://www.google.com/">googling</a>, I found that <code class="language-plaintext highlighter-rouge">/CSP-fastpages</code> wasn’t something in Markdown. Turns out it’s actually Jekyll syntax.</p>
+<p>After some <a href="https://www.google.com/">googling</a>, I found that  <code class="language-plaintext highlighter-rouge">{{site.baseurl}}</code>  wasn’t something in Markdown. Turns out it’s actually Jekyll syntax.</p>
 
-<p>So what does <code class="language-plaintext highlighter-rouge">/CSP-fastpages</code> do?</p>
+<p>So what does  <code class="language-plaintext highlighter-rouge">{{site.baseurl}}</code>  do?</p>
 
 <p>Basically, <code class="language-plaintext highlighter-rouge">baseurl</code> is the directory under the URL of the website. So for example, this blog’s URL is <code class="language-plaintext highlighter-rouge">lwu1822.github.io</code>, and the baseurl is <code class="language-plaintext highlighter-rouge">CSP-fastpages</code>.</p>
 
-<p>So instead of typing out <code class="language-plaintext highlighter-rouge">![](lwu1822.github.io/CSP-fastpages/images/diagram.png)</code>, I can instead just do <code class="language-plaintext highlighter-rouge">![](/CSP-fastpages/images/diagram.png)</code>. Saves a lot of typing.</p>
+<p>So instead of typing out <code class="language-plaintext highlighter-rouge">![](lwu1822.github.io/CSP-fastpages/images/diagram.png)</code>, I can instead just do  <code class="language-plaintext highlighter-rouge">![]({{site.baseurl}}/images/diagram.png)</code>.  Saves a lot of typing.</p>
 
 <p>Pretty cool, huh? 😊</p>
 
-<p><strong>Something else I encountered while typing this blog</strong></p>
+<p><strong>Something else I encountered while typing this blog</strong> 
+To type  <code class="language-plaintext highlighter-rouge">{{site.baseurl}}</code>  in this Markdown file, apparently you have to use the  <code class="language-plaintext highlighter-rouge">{% raw %}</code>  template.</p>
 
 <h6 id="things-for-me-to-contemplate-on">
 <a class="anchor" href="#things-for-me-to-contemplate-on" aria-hidden="true"><span class="octicon octicon-link"></span></a>Things for me to contemplate on:</h6>
