@@ -16,20 +16,18 @@ After some [googling](https://www.google.com/), I found that {% raw %} `{{site.b
 
 So what does {% raw %} `{{site.baseurl}}` {% endraw %} do? 
 
-Basically, `baseurl` is the directory under the URL of the website. So for example, this blog's URL is `lwu1822.github.io`, and the baseurl is `CSP-fastpages`. 
+Basically, `baseurl` is the directory under the URL of the website. [^1] So for example, this blog's URL is `lwu1822.github.io`, and the baseurl is `CSP-fastpages`. 
 
 So instead of typing out `![](lwu1822.github.io/CSP-fastpages/images/diagram.png)`, I can instead just do {% raw %} `![]({{site.baseurl}}/images/diagram.png)`. {% endraw %} Saves a lot of typing.
 
 Pretty cool, huh? 😊
 
 **Something else I encountered while typing this blog** 
-To type {% raw %} `{{site.baseurl}}` {% endraw %} in this Markdown file, apparently you have to use the {% raw %} `{% raw %}` {% endraw %} and {% raw %} `{% endraw %}` {% endraw %} template. [^1]
+To type {% raw %} `{{site.baseurl}}` {% endraw %} in this Markdown file, apparently you have to use the {% raw %} `{% raw %}` {% endraw %} and {% raw %} `{% endraw %}` {% endraw %} template. [^2]
 
 ###### Things for me to contemplate on:
 
 I noticed on the provided [Fastpages Notebook Blog Post](https://lwu1822.github.io/CSP-fastpages/jupyter/2020/02/20/test.html), you can add an image without the baseurl. For example, you can specify an image with `![](images/diagram.png)`. Not sure why that works, but I'm guessing it has something to with Jupyter Notebooks.
 
-[^1]: [Liquid template language](https://shopify.github.io/liquid/tags/template/)
-
-# Test
-{% raw %} {% endraw %} {% endraw %}
+[^1]: [baseurl](https://mademistakes.com/mastering-jekyll/site-url-baseurl/)
+[^2]: [Liquid template language](https://shopify.github.io/liquid/tags/template/)
