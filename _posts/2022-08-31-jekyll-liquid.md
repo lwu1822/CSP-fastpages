@@ -2,8 +2,8 @@
 toc: true
 layout: post
 description: Recording my learnings on using Jekyll.
-categories: [jekyll]
-title: Jekyll 
+categories: [jekyll-liquid]
+title: Jekyll and Liquid
 ---
 
 While I was setting up my fastpages blog, I noticed this interesting line of code in `index.html`. 
@@ -24,13 +24,10 @@ So instead of typing out `![](lwu1822.github.io/CSP-fastpages/images/diagram.png
 
 Pretty cool, huh? 😊
 
+**Something else I encountered while typing this blog** 
+
+
 ###### Things for me to contemplate on:
 
 I noticed on the provided [Fastpages Notebook Blog Post](https://lwu1822.github.io/CSP-fastpages/jupyter/2020/02/20/test.html), you can add an image without the baseurl. For example, you can specify an image with `![](images/diagram.png)`. Not sure why that works, but I'm guessing it has something to with Jupyter Notebooks.
 
-```liquid
-{% raw %}
-test
-{{ site.baseurl }}
-{% endraw %}
-```
