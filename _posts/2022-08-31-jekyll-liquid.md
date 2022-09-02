@@ -24,8 +24,21 @@ So instead of typing out `![](lwu1822.github.io/CSP-fastpages/images/diagram.png
 
 Pretty cool, huh? 😊
 
-**Something else I encountered while typing this blog** 
-To type {% raw %} `{{site.baseurl}}` {% endraw %} in this Markdown file, apparently you have to use the {% raw %} `{% raw %}` {% endraw %} template. [^2]
+**Something else I encountered while making this post** 
+
+{% assign openTag = '{%' %}
+
+To type {% raw %} `{{site.baseurl}}` {% endraw %} in this Markdown file, apparently you have to use the {% raw %} `{% raw %}` {% endraw %} and `{{ openTag }} endraw %}` template. [^2]
+
+For example:
+{% raw %}
+```
+{% raw %} `{{site.baseurl}}` {{ openTag }} endraw %}
+```
+{% endraw %}
+
+**Also something I encountered just as I was writing the line above**
+
 
 ###### Things for me to contemplate on:
 
