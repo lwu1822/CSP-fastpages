@@ -6,7 +6,7 @@ categories: [jekyll-liquid]
 title: Jekyll and Liquid
 ---
 
-<p style="font-size: 5px">*this took me hours to research btw*</p>
+<p style="font-size: 5px"><em>this took me hours to research btw*</em></p>
 
 While I was setting up my fastpages blog, I noticed this interesting line of code in `index.html`. 
 
@@ -33,7 +33,7 @@ I noticed on the provided [Fastpages Notebook Blog Post](https://lwu1822.github.
 
 # Test
 {% assign openTag = '{%' %}
-{% raw %} {{ openTag }} endraw %} {% endraw %}
+{{ openTag }} endraw %} 
 
 [^1]: [baseurl](https://mademistakes.com/mastering-jekyll/site-url-baseurl/)
 
