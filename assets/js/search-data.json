@@ -4,19 +4,19 @@
         "post0": {
             "title": "Python",
             "content": "print(&quot;Hello World!&quot;) . Hello World! .",
-            "url": "https://lwu1822.github.io/CSP-fastpages/python/2022/08/31/python.html",
-            "relUrl": "/python/2022/08/31/python.html",
-            "date": " • Aug 31, 2022"
+            "url": "https://lwu1822.github.io/CSP-fastpages/python/2022/09/01/python.html",
+            "relUrl": "/python/2022/09/01/python.html",
+            "date": " • Sep 1, 2022"
         }
         
     
   
     
         ,"post1": {
-            "title": "Jekyll",
-            "content": "While I was setting up my fastpages blog, I noticed this interesting line of code in index.html. . . And I thought, hey, this is interesting, what does {{site.baseurl}} do? . After some googling, I found that /CSP-fastpages wasn’t something in Markdown. Turns out it’s actually Jekyll syntax. . So what does /CSP-fastpages do? . Basically, baseurl is the directory under the URL of the website. So for example, this blog’s URL is lwu1822.github.io, and the baseurl is CSP-fastpages. . So instead of typing out ![](lwu1822.github.io/CSP-fastpages/images/diagram.png), I can instead just do ![](/CSP-fastpages/images/diagram.png). Saves a lot of typing. . Pretty cool, huh? 😊 . Things for me to contemplate on: . I noticed on the provided Fastpages Notebook Blog Post, you can add an image without the baseurl. For example, you can specify an image with ![](images/diagram.png). Not sure why that works, but I’m guessing it has something to with Jupyter Notebooks. . test {{ site.baseurl }} .",
-            "url": "https://lwu1822.github.io/CSP-fastpages/jekyll/2022/08/31/jekyll.html",
-            "relUrl": "/jekyll/2022/08/31/jekyll.html",
+            "title": "Jekyll and Liquid",
+            "content": "While I was setting up my fastpages blog, I noticed this interesting line of code in index.html. . . And I thought, hey, this is interesting, what does {{site.baseurl}} do? . After some googling, I found that /CSP-fastpages wasn’t something in Markdown. Turns out it’s actually Jekyll syntax. . So what does /CSP-fastpages do? . Basically, baseurl is the directory under the URL of the website. So for example, this blog’s URL is lwu1822.github.io, and the baseurl is CSP-fastpages. . So instead of typing out ![](lwu1822.github.io/CSP-fastpages/images/diagram.png), I can instead just do ![](/CSP-fastpages/images/diagram.png). Saves a lot of typing. . Pretty cool, huh? 😊 . Something else I encountered while typing this blog . Things for me to contemplate on: . I noticed on the provided Fastpages Notebook Blog Post, you can add an image without the baseurl. For example, you can specify an image with ![](images/diagram.png). Not sure why that works, but I’m guessing it has something to with Jupyter Notebooks. .",
+            "url": "https://lwu1822.github.io/CSP-fastpages/jekyll-liquid/2022/08/31/jekyll-liquid.html",
+            "relUrl": "/jekyll-liquid/2022/08/31/jekyll-liquid.html",
             "date": " • Aug 31, 2022"
         }
         
