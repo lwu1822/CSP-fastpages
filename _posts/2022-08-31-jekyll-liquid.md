@@ -11,20 +11,19 @@ While I was setting up my fastpages blog, I noticed this interesting line of cod
 ![]({{site.baseurl}}/images/index_html_code.png "code in index.html to insert image")
 
 And I thought, *hey, this is interesting, what does {% raw %} {{site.baseurl}} {% endraw %} do?*
-test 
 
-After some [googling](https://www.google.com/), I found that `{{ site.baseurl }}` wasn't something in Markdown. Turns out it's actually Jekyll syntax. 
+After some [googling](https://www.google.com/), I found that {% raw %} `{{site.baseurl}}` {% endraw %} wasn't something in Markdown. Turns out it's actually Jekyll syntax. 
 
-So what does `{{ site.baseurl }}` do? 
+So what does {% raw %} `{{site.baseurl}}` {% endraw %} do? 
 
 Basically, `baseurl` is the directory under the URL of the website. So for example, this blog's URL is `lwu1822.github.io`, and the baseurl is `CSP-fastpages`. 
 
-So instead of typing out `![](lwu1822.github.io/CSP-fastpages/images/diagram.png)`, I can instead just do `![]({{site.baseurl}}/images/diagram.png)`. Saves a lot of typing.
+So instead of typing out `![](lwu1822.github.io/CSP-fastpages/images/diagram.png)`, I can instead just do {% raw %} `![]({{site.baseurl}}/images/diagram.png)`. {% endraw %} Saves a lot of typing.
 
 Pretty cool, huh? 😊
 
 **Something else I encountered while typing this blog** 
-
+To type {% raw %} `{{site.baseurl}}` {% endraw %} in this Markdown file, apparently you have to use the {% raw %} `{% raw %}` {% endraw %} template.
 
 ###### Things for me to contemplate on:
 
