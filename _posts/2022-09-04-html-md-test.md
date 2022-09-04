@@ -24,8 +24,6 @@ H<sub>2</sub>O
 
 x<sup>2</sup>
 
-![]({{site.baseurl}}/images/index_html_code.png "code in index.html to insert image")
-
 <br>
 
 ![](lwu1822.github.io/CSP-fastpages/images/index_html_code.png "code in index.html to insert image")
