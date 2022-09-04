@@ -165,23 +165,27 @@ window.onload = wrap_img;
 
 <p>The reason is because the first {% endraw %} will be interpreted as ending the {% raw %} template.</p>
 
-<p>So if you want to be able to type <code class="language-plaintext highlighter-rouge">{% endraw %}</code> in Markdown, you need to do the following [^3]:</p>
+<p>So if you want to be able to type <code class="language-plaintext highlighter-rouge">{% endraw %}</code> in Markdown, you need to do the following <sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup>:</p>
 
 <ol>
-  <li>Create a variable, in this example, I’ll name it <code class="language-plaintext highlighter-rouge">openTag</code>, and assign it to <mark>here</mark>:</li>
+  <li>Create a variable, in this example, I’ll name it <code class="language-plaintext highlighter-rouge">openTag</code>, and assign it to {%:</li>
 </ol>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{% assign openTag = '{%' %}
 </code></pre></div></div>
 
 <ol>
-  <li>Use the  <code class="language-plaintext highlighter-rouge">{{ openTag }}</code>  variable anytime you want to type text that contains <mark>here</mark> in it.</li>
+  <li>Use the  <code class="language-plaintext highlighter-rouge">{{ openTag }}</code>  variable anytime you want to type text that contains {% in it.</li>
 </ol>
 
 <p>For example, to type the text <code class="language-plaintext highlighter-rouge">{% endraw %}</code>, you would do:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{{ openTag }} endraw %}
 </code></pre></div></div>
+
+<p><br></p>
+
+<p><strong>Even more something I learned</strong></p>
 
 <p><br></p>
 
@@ -199,7 +203,6 @@ window.onload = wrap_img;
   <p>Warning: Test</p>
 </blockquote>
 
-<p>[^3] <a href="https://blog.slaks.net/2013-06-10/jekyll-endraw-in-code/">I took the steps from here but quite frankly, I found the explanation a little confusing, so I simplified it as much as I could in this blog</a></p>
 <div class="footnotes" role="doc-endnotes">
   <ol>
     <li id="fn:1" role="doc-endnote">
@@ -207,6 +210,9 @@ window.onload = wrap_img;
     </li>
     <li id="fn:2" role="doc-endnote">
       <p><a href="https://shopify.github.io/liquid/tags/template/">Liquid template language</a> <a href="#fnref:2" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+    <li id="fn:3" role="doc-endnote">
+      <p><a href="https://blog.slaks.net/2013-06-10/jekyll-endraw-in-code/">I took the steps from here but quite frankly, I found the explanation a little confusing, so I simplified it as much as I could in this blog</a> <a href="#fnref:3" class="reversefootnote" role="doc-backlink">↩</a></p>
     </li>
   </ol>
 </div>
