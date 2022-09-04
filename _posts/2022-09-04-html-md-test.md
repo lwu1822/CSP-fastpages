@@ -21,3 +21,5 @@ title: HTML test
 <del>strikethrough with del tag</del>
 
 H<sub>2</sub>O
+
+x<sup>2</sup>
