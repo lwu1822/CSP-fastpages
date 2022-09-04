@@ -132,18 +132,27 @@ window.onload = wrap_img;
 
 <p>Pretty cool, huh? 😊</p>
 
+<p><br></p>
+
 <p><strong>Something else I encountered while making this post</strong></p>
 
-<p>To type  <code class="language-plaintext highlighter-rouge">{{site.baseurl}}</code>  in this Markdown file, apparently you have to use the  <code class="language-plaintext highlighter-rouge">{% raw %}</code>  and <code class="language-plaintext highlighter-rouge">{% endraw %}</code> template around the  {{site.baseurl}} . <sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup></p>
+<p>To type  <code class="language-plaintext highlighter-rouge">{{site.baseurl}}</code>  in this Markdown file, apparently you have to use the  <code class="language-plaintext highlighter-rouge">{% raw %}</code>  and <code class="language-plaintext highlighter-rouge">{% endraw %}</code> template around  {{site.baseurl}} . <sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup></p>
 
-<p>For example:</p>
+<p>Like this:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{% raw %}  {{site.baseurl}}  {% endraw %}
 </code></pre></div></div>
 
+<p><br></p>
+
 <p><strong>Also something I encountered just as I was writing the line above</strong></p>
 
-<p>Noticed how I was able to write <code class="language-plaintext highlighter-rouge">{% endraw %}</code> above? Unfortunately, it’s not that simple to just type it directly into your IDE, like this</p>
+<p>Noticed how I was able to write <code class="language-plaintext highlighter-rouge">{% endraw %}</code> above? Unfortunately, it’s not that simple to just type it directly into your IDE, like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{% raw %} {% endraw %} {% endraw %} 
+</code></pre></div></div>
+
+<p><br></p>
 
 <h6 id="things-for-me-to-contemplate-on">
 <a class="anchor" href="#things-for-me-to-contemplate-on" aria-hidden="true"><span class="octicon octicon-link"></span></a>Things for me to contemplate on:</h6>
