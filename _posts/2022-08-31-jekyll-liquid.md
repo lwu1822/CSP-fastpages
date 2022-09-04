@@ -55,7 +55,7 @@ The reason is because the first {{ openTag }} endraw %} will be interpreted as e
 
 So if you want to be able to type `{{ openTag }} endraw %}` in Markdown, you need to do the following [^3]:
 
-    1. Create a variable, in this example, I'll name it `openTag`, and assign it to `{{ openTag }}`:
+1. Create a variable, in this example, I'll name it `openTag`, and assign it to `{{ openTag }}`:
 
 test 
 
@@ -65,7 +65,7 @@ test
 ```
 {% endraw %}
 
-    2. Use the {% raw %} `{{ openTag }}` {% endraw %} variable anytime you want to type text that contains `{{ openTag }}` in it.
+2. Use the {% raw %} `{{ openTag }}` {% endraw %} variable anytime you want to type text that contains `{{ openTag }}` in it.
 
 For example, to type the text `{{ openTag }} endraw %}`, you would do:
 
