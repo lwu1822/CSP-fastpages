@@ -88,6 +88,8 @@ Instead, you have to type: {% raw %} `{{ openTag }}` {% endraw %}
 
 I noticed on the provided [Fastpages Notebook Blog Post](https://lwu1822.github.io/CSP-fastpages/jupyter/2020/02/20/test.html), you can add an image without the baseurl. For example, you can specify an image with `![](images/diagram.png)`. Not sure why that works, but I'm guessing it has something to with Jupyter Notebooks.
 
+<br>
+
 [^1]: [baseurl](https://mademistakes.com/mastering-jekyll/site-url-baseurl/)
 
 [^2]: [Liquid template language](https://shopify.github.io/liquid/tags/template/)
