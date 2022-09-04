@@ -78,7 +78,9 @@ For example, to type the text `{{ openTag }} endraw %}`, you would do:
 
 **Even more something that I learned**
 
-Apparently, you also can't type `{{ openTag }}` directly in the IDE, which would also break your code (took me a long time looking through my code to find what the error was （ꐦ𝅒_𝅒）)
+Apparently, you also can't type `{{ openTag }}` directly in the IDE, which would also break your code (took me a long time to debug （ꐦ𝅒_𝅒）)
+
+Instead, you have to type: {% raw %} `{{ openTag }}` {% endraw %}
 
 <br>
 
