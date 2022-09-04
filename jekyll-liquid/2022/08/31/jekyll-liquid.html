@@ -168,14 +168,14 @@ window.onload = wrap_img;
 <p>So if you want to be able to type <code class="language-plaintext highlighter-rouge">{% endraw %}</code> in Markdown, you need to do the following <sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup>:</p>
 
 <ol>
-  <li>Create a variable, in this example, I’ll name it <code class="language-plaintext highlighter-rouge">openTag</code>, and assign it to {%:</li>
+  <li>Create a variable, in this example, I’ll name it <code class="language-plaintext highlighter-rouge">openTag</code>, and assign it to <code class="language-plaintext highlighter-rouge">{%</code>:</li>
 </ol>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{% assign openTag = '{%' %}
 </code></pre></div></div>
 
 <ol>
-  <li>Use the  <code class="language-plaintext highlighter-rouge">{{ openTag }}</code>  variable anytime you want to type text that contains {% in it.</li>
+  <li>Use the  <code class="language-plaintext highlighter-rouge">{{ openTag }}</code>  variable anytime you want to type text that contains <code class="language-plaintext highlighter-rouge">{%</code> in it.</li>
 </ol>
 
 <p>For example, to type the text <code class="language-plaintext highlighter-rouge">{% endraw %}</code>, you would do:</p>
@@ -185,7 +185,9 @@ window.onload = wrap_img;
 
 <p><br></p>
 
-<p><strong>Even more something I learned</strong></p>
+<p><strong>Even more something that I learned</strong></p>
+
+<p>Apparently, you also can’t type <code class="language-plaintext highlighter-rouge">{%</code> directly in the IDE, which would also break your code (took me a long time looking through my code to find what the error was （ꐦ𝅒_𝅒）)</p>
 
 <p><br></p>
 
