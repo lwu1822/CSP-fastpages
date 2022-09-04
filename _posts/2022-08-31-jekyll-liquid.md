@@ -55,7 +55,7 @@ The reason is because the first {{ openTag }} endraw %} will be interpreted as e
 
 So if you want to be able to type `{{ openTag }} endraw %}` in Markdown, you need to do the following [^3]:
 
-1. Create a variable, in this example, I'll name it `openTag`, and assign it to {{ openTag }}:
+1. Create a variable, in this example, I'll name it `openTag`, and assign it to `{{ openTag }}`:
 
 {% raw %}
 ```
@@ -63,7 +63,7 @@ So if you want to be able to type `{{ openTag }} endraw %}` in Markdown, you nee
 ```
 {% endraw %}
 
-2. Use the {% raw %} `{{ openTag }}` {% endraw %} variable anytime you want to type text that contains {{ openTag }} in it.
+2. Use the {% raw %} `{{ openTag }}` {% endraw %} variable anytime you want to type text that contains `{{ openTag }}` in it.
 
 For example, to type the text `{{ openTag }} endraw %}`, you would do:
 
@@ -76,8 +76,9 @@ For example, to type the text `{{ openTag }} endraw %}`, you would do:
 
 <br>
 
-**Even more something I learned**
+**Even more something that I learned**
 
+Apparently, you also can't type `{{ openTag }}` directly in the IDE, which would also break your code (took me a long time looking through my code to find what the error was （ꐦ𝅒_𝅒）)
 
 <br>
 
