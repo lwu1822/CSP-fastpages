@@ -134,11 +134,11 @@ window.onload = wrap_img;
 
 <p><strong>Something else I encountered while making this post</strong></p>
 
-<p>To type  <code class="language-plaintext highlighter-rouge">{{site.baseurl}}</code>  in this Markdown file, apparently you have to use the  <code class="language-plaintext highlighter-rouge">{% raw %}</code>  and <code class="language-plaintext highlighter-rouge">{% endraw %}</code> template. <sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup></p>
+<p>To type  <code class="language-plaintext highlighter-rouge">{{site.baseurl}}</code>  in this Markdown file, apparently you have to use the  <code class="language-plaintext highlighter-rouge">{% raw %}</code>  and <code class="language-plaintext highlighter-rouge">{% endraw %}</code> template around the  {{site.baseurl}} . <sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup></p>
 
 <p>For example:</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{{ openTag }} raw %} {{site.baseurl}} {{ openTag }} endraw %}
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{% raw %}  {{site.baseurl}}  {% endraw %}
 </code></pre></div></div>
 
 <p><strong>Also something I encountered just as I was writing the line above</strong></p>
