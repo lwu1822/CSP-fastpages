@@ -28,14 +28,14 @@ Pretty cool, huh? 😊
 
 {% assign openTag = '{%' %}
 
-To type {% raw %} `{{site.baseurl}}` {% endraw %} in this Markdown file, apparently you have to use the {% raw %} `{% raw %}` {% endraw %} and `{{ openTag }} endraw %}` template. [^2]
+To type {% raw %} `{{site.baseurl}}` {% endraw %} in this Markdown file, apparently you have to use the {% raw %} `{% raw %}` {% endraw %} and `{{ openTag }} endraw %}` template around the {% raw %} {{site.baseurl}} {% endraw %}. [^2]
 
 For example:
-{% raw %}
+
 ```
-{{ openTag }} raw %} {{site.baseurl}} {{ openTag }} endraw %}
+{{ openTag }} raw %} {% raw %} {{site.baseurl}} {% endraw %} {{ openTag }} endraw %}
 ```
-{% endraw %}
+
 
 
 **Also something I encountered just as I was writing the line above**
