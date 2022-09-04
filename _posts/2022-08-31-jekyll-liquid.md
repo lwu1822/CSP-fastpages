@@ -42,7 +42,7 @@ Like this:
 
 **Also something I encountered just as I was writing the line above**
 
-Noticed how I was able to write `{{ openTag }} endraw %}` above? Unfortunately, it's not that simple to just type it directly into your IDE, like this:
+Notice how I was able to write `{{ openTag }} endraw %}` above? Unfortunately, it's not that simple to just type it directly into your IDE, like this:
 
 ```
 {{ openTag }} raw %} {{ openTag }} endraw %} {{ openTag }} endraw %} 
@@ -57,6 +57,8 @@ I noticed on the provided [Fastpages Notebook Blog Post](https://lwu1822.github.
 # Test
 {% assign openTag = '{%' %}
 `{{ openTag }} endraw %}`
+
+> Warning: Test
 
 [^1]: [baseurl](https://mademistakes.com/mastering-jekyll/site-url-baseurl/)
 
