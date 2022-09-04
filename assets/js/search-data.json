@@ -3,7 +3,7 @@
     
         "post0": {
             "title": "HTML test",
-            "content": "bolded text . bolded text with the b tag .",
+            "content": "bolded text . bolded text with the b tag . italics . italics with i tag .",
             "url": "https://lwu1822.github.io/CSP-fastpages/test/2022/09/04/html-md-test.html",
             "relUrl": "/test/2022/09/04/html-md-test.html",
             "date": " • Sep 4, 2022"
