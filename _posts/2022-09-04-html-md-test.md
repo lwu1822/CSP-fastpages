@@ -10,4 +10,6 @@ title: HTML test
 
 <b> bolded text with the b tag </b>
 
+<em>italics</em>
 
+<i>italics with i tag</i>
