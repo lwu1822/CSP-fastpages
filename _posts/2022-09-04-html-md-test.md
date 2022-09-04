@@ -28,4 +28,4 @@ x<sup>2</sup>
 
 <br>
 
-![](CSP-fastpages/images/index_html_code.png "code in index.html to insert image")
+![](lwu1822.github.io/CSP-fastpages/images/index_html_code.png "code in index.html to insert image")
