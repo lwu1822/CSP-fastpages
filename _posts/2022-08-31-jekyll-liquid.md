@@ -52,13 +52,24 @@ Notice how I was able to write `{{ openTag }} endraw %}` above? Unfortunately, i
 
 The reason is because the first {{ openTag }} endraw %} will be interpreted as ending the {{ openTag }} raw %} template. 
 
-So if you want to be able to type `{{ openTag }} endraw %}` in Markdown, you need to do the following:
+So if you want to be able to type `{{ openTag }} endraw %}` in Markdown, you need to do the following [^3]:
 
 1. Create a variable, in this example, I'll name it `openTag`, and assign it to `{%`:
 
 ```
 {% assign openTag = '{%' %}
 ```
+
+2. Use the {% raw %} `{{ openTag }}` {% endraw %} variable anytime you want to type text that contains `{%` in it.
+
+For example, to type the text `{{ openTag }} endraw %}`, you would do:
+
+{% raw %}
+```
+{{ openTag }} endraw %}
+```
+{% endraw %}
+
 
 <br>
 
@@ -75,3 +86,5 @@ I noticed on the provided [Fastpages Notebook Blog Post](https://lwu1822.github.
 [^1]: [baseurl](https://mademistakes.com/mastering-jekyll/site-url-baseurl/)
 
 [^2]: [Liquid template language](https://shopify.github.io/liquid/tags/template/)
+
+[^3] [I took the steps from here but quite frankly, I found the explanation a little confusing, so I simplified it as much as I could in this blog](https://blog.slaks.net/2013-06-10/jekyll-endraw-in-code/)
