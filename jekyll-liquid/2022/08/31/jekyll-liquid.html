@@ -168,16 +168,16 @@ window.onload = wrap_img;
 <p>So if you want to be able to type <code class="language-plaintext highlighter-rouge">{% endraw %}</code> in Markdown, you need to do the following <sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup>:</p>
 
 <ol>
-  <li>Create a variable, in this example, I’ll name it <code class="language-plaintext highlighter-rouge">openTag</code>, and assign it to <code class="language-plaintext highlighter-rouge">{%</code>:</li>
-</ol>
+  <li>
+    <p>Create a variable, in this example, I’ll name it <code class="language-plaintext highlighter-rouge">openTag</code>, and assign it to <code class="language-plaintext highlighter-rouge">{%</code>:</p>
 
-<p>test</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{% assign openTag = '{%' %}
-</code></pre></div></div>
-
-<ol>
-  <li>Use the  <code class="language-plaintext highlighter-rouge">{{ openTag }}</code>  variable anytime you want to type text that contains <code class="language-plaintext highlighter-rouge">{%</code> in it.</li>
+    <div class="language-plaintext highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code> {% assign openTag = '{%' %}
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Use the  <code class="language-plaintext highlighter-rouge">{{ openTag }}</code>  variable anytime you want to type text that contains <code class="language-plaintext highlighter-rouge">{%</code> in it.</p>
+  </li>
 </ol>
 
 <p>For example, to type the text <code class="language-plaintext highlighter-rouge">{% endraw %}</code>, you would do:</p>
