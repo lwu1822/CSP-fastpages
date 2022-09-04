@@ -47,15 +47,21 @@ Notice how I was able to write `{{ openTag }} endraw %}` above? Unfortunately, i
 > :warning: **Warning**: Don't do this, it will break your code:
 
 
+```
+{{ openTag }} raw %} {{ openTag }} endraw %} {{ openTag }} endraw %} 
+```
+
 The reason is because the first {{ openTag }} endraw %} will be interpreted as ending the {{ openTag }} raw %} template. 
 
 So if you want to be able to type `{{ openTag }} endraw %}` in Markdown, you need to do the following [^3]:
 
 1. Create a variable, in this example, I'll name it `openTag`, and assign it to `{%`:
 
+{% raw %}
 ```
 {% assign openTag = '{%' %}
 ```
+{% endraw %}
 
 2. Use the {% raw %} `{{ openTag }}` {% endraw %} variable anytime you want to type text that contains `{%` in it.
 
