@@ -13,3 +13,11 @@ title: HTML test
 <em>italics</em>
 
 <i>italics with i tag</i>
+
+<u>underline</u>
+
+<s>strikethrough</s>
+
+<del>strikethrough with del tag</del>
+
+<strike>strikethrough with strike tag test</strike>
