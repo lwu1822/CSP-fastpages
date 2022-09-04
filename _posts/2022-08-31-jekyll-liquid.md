@@ -46,9 +46,6 @@ Notice how I was able to write `{{ openTag }} endraw %}` above? Unfortunately, i
 
 > :warning: **Warning**: Don't do this, it will break your code:
 
-```
-{{ openTag }} raw %} {{ openTag }} endraw %} {{ openTag }} endraw %} 
-```
 
 The reason is because the first {{ openTag }} endraw %} will be interpreted as ending the {{ openTag }} raw %} template. 
 
