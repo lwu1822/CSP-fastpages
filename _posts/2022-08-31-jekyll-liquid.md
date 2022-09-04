@@ -57,6 +57,8 @@ So if you want to be able to type `{{ openTag }} endraw %}` in Markdown, you nee
 
 1. Create a variable, in this example, I'll name it `openTag`, and assign it to `{{ openTag }}`:
 
+test 
+
 {% raw %}
 ```
 {% assign openTag = '{%' %}
