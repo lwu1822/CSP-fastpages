@@ -65,12 +65,12 @@ So if you want to be able to type `{{ openTag }} endraw %}` in Markdown, you nee
 
 2. Use the {% raw %} `{{ openTag }}` {% endraw %} variable anytime you want to type text that contains `{{ openTag }}` in it.
 
-For example, to type the text `{{ openTag }} endraw %}`, you would do:
+    For example, to type the text `{{ openTag }} endraw %}`, you would do:
 
 {% raw %}
-```
-{{ openTag }} endraw %}
-```
+    ```
+    {{ openTag }} endraw %}
+    ```
 {% endraw %}
 
 
@@ -87,12 +87,6 @@ Instead, you have to type: {% raw %} `{{ openTag }}` {% endraw %}
 ###### Things for me to contemplate on: 
 
 I noticed on the provided [Fastpages Notebook Blog Post](https://lwu1822.github.io/CSP-fastpages/jupyter/2020/02/20/test.html), you can add an image without the baseurl. For example, you can specify an image with `![](images/diagram.png)`. Not sure why that works, but I'm guessing it has something to with Jupyter Notebooks.
-
-# Test
-{% assign openTag = '{%' %}
-`{{ openTag }} endraw %}`
-
-> Warning: Test
 
 [^1]: [baseurl](https://mademistakes.com/mastering-jekyll/site-url-baseurl/)
 
