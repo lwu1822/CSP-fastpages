@@ -171,6 +171,8 @@ window.onload = wrap_img;
   <li>Create a variable, in this example, I’ll name it <code class="language-plaintext highlighter-rouge">openTag</code>, and assign it to <code class="language-plaintext highlighter-rouge">{%</code>:</li>
 </ol>
 
+<p>test</p>
+
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{% assign openTag = '{%' %}
 </code></pre></div></div>
 
@@ -187,7 +189,9 @@ window.onload = wrap_img;
 
 <p><strong>Even more something that I learned</strong></p>
 
-<p>Apparently, you also can’t type <code class="language-plaintext highlighter-rouge">{%</code> directly in the IDE, which would also break your code (took me a long time looking through my code to find what the error was （ꐦ𝅒_𝅒）)</p>
+<p>Apparently, you also can’t type <code class="language-plaintext highlighter-rouge">{%</code> directly in the IDE, which would also break your code (took me a long time to debug （ꐦ𝅒_𝅒）)</p>
+
+<p>Instead, you have to type:  <code class="language-plaintext highlighter-rouge">{{ openTag }}</code></p>
 
 <p><br></p>
 
