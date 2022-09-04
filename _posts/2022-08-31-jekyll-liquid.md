@@ -31,9 +31,11 @@ Pretty cool, huh? 😊
 To type {% raw %} `{{site.baseurl}}` {% endraw %} in this Markdown file, apparently you have to use the {% raw %} `{% raw %}` {% endraw %} and `{{ openTag }} endraw %}` template. [^2]
 
 For example:
+{% raw %}
 ```
 {{ openTag }} raw %} {{site.baseurl}} {{ openTag }} endraw %}
 ```
+{% endraw %}
 
 
 **Also something I encountered just as I was writing the line above**
