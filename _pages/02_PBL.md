@@ -12,8 +12,6 @@ permalink: /PBL/
 
 ## Week 1
 
-* [Bash: Check if tools are installed](https://lwu1822.github.io/fastpages/bash/2022/08/26/tools.html)
+* [Bash: Check if tools are installed](https://lwu1822.github.io/CSP-fastpages/bash/2022/09/05/tools.html)
 
-* [Learnings from code.org](https://lwu1822.github.io/fastpages/code.org/2022/08/28/code-org.html)
 
-* [Java Primitives](https://lwu1822.github.io/fastpages/java/2022/08/28/primitives.html)
