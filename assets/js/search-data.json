@@ -93,9 +93,20 @@
   
       ,"page1": {
           "title": "Notes",
-          "content": "This page will mainly be for capturing my learning on Python, which is the main language that we will be learning for AP CSP. . I will also be linking my notes on other programming languages at the of bottom this page. . Links . Jekyll and Liquid .",
+          "content": "This page will mainly be for capturing my learning on Python, which is the main language that we will be learning for AP CSP. . I will also be linking my notes on other programming languages at the of bottom this page. . If you would like to see what I did for each week’s project based learning, click . Links . Jekyll and Liquid .",
           "url": "https://lwu1822.github.io/CSP-fastpages/notes/",
           "relUrl": "/notes/",
+          "date": ""
+      }
+      
+  
+
+  
+      ,"page2": {
+          "title": "PBL",
+          "content": "Week 0 . First post . | Python . | . Week 1 . Bash: Check if tools are installed . | Learnings from code.org . | Java Primitives . | .",
+          "url": "https://lwu1822.github.io/CSP-fastpages/PBL/",
+          "relUrl": "/PBL/",
           "date": ""
       }
       
@@ -127,7 +138,7 @@
   
 
   
-      ,"page12": {
+      ,"page13": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://lwu1822.github.io/CSP-fastpages/robots.txt",
