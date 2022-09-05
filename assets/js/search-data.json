@@ -2,10 +2,10 @@
   
     
         "post0": {
-            "title": "HTML test",
-            "content": "bolded text . bolded text with the b tag . italics . italics with i tag . underline . strikethrough strikethrough with del tag . H2O . x2 . . .",
-            "url": "https://lwu1822.github.io/CSP-fastpages/test/2022/09/04/html-md-test.html",
-            "relUrl": "/test/2022/09/04/html-md-test.html",
+            "title": "Python",
+            "content": "print(&quot;Hello World!&quot;) . Hello World! .",
+            "url": "https://lwu1822.github.io/CSP-fastpages/python/2022/09/04/python.html",
+            "relUrl": "/python/2022/09/04/python.html",
             "date": " • Sep 4, 2022"
         }
         
@@ -13,11 +13,11 @@
   
     
         ,"post1": {
-            "title": "Python",
-            "content": "print(&quot;Hello World!&quot;) . Hello World! .",
-            "url": "https://lwu1822.github.io/CSP-fastpages/python/2022/09/03/python.html",
-            "relUrl": "/python/2022/09/03/python.html",
-            "date": " • Sep 3, 2022"
+            "title": "HTML test",
+            "content": "bolded text . bolded text with the b tag . italics . italics with i tag . underline . strikethrough strikethrough with del tag . H2O . x2 . . .",
+            "url": "https://lwu1822.github.io/CSP-fastpages/test/2022/09/04/html-md-test.html",
+            "relUrl": "/test/2022/09/04/html-md-test.html",
+            "date": " • Sep 4, 2022"
         }
         
     
