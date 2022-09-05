@@ -80,6 +80,17 @@
   
 
   
+      ,"page1": {
+          "title": "Notes",
+          "content": "Notes . This page will mainly be for capturing my learning on Python, which is the main language that we will be learning for AP CSP. . I will also be linking my notes on other programming languages at the of this page. . Links .",
+          "url": "https://lwu1822.github.io/CSP-fastpages/notes/",
+          "relUrl": "/notes/",
+          "date": ""
+      }
+      
+  
+
+  
 
   
 
@@ -103,7 +114,7 @@
   
 
   
-      ,"page10": {
+      ,"page11": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://lwu1822.github.io/CSP-fastpages/robots.txt",
