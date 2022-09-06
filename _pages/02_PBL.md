@@ -15,3 +15,10 @@ permalink: /PBL/
 * [Bash: Check if tools are installed](https://lwu1822.github.io/CSP-fastpages/bash/2022/09/05/tools.html)
 
 
+
+<table>
+    <tr>
+        <th>Week</th>
+        <th>Assignments</th>
+    </tr>
+</table>
