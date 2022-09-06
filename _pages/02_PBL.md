@@ -22,15 +22,8 @@ permalink: /weekly-work/
         <th>Assignments</th>
     </tr>
     
-    {% for i in (0..2) %}
-    <tr>
-        
-    <td>{{i}}</td>
-        {% if i == 0 }
-            <td>Week 1</td>
-        {% endif %}
-    
-    </tr>
-    {% endfor %}
+
+
+
 </table>
 
