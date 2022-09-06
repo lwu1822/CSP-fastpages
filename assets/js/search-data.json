@@ -137,7 +137,7 @@
   
       ,"page2": {
           "title": "Weekly Work",
-          "content": "Week Assignments . 0 | First post Python | . 1 | Bash: Check if tools are installed | . 2 | .",
+          "content": "Week Assignments . 0 | First post Python | { % if i == 2 %} DictionaryHTML and CSS | . 1 | Bash: Check if tools are installed | { % if i == 2 %} DictionaryHTML and CSS | . 2 | { % if i == 2 %} DictionaryHTML and CSS | .",
           "url": "https://lwu1822.github.io/CSP-fastpages/weekly-work/",
           "relUrl": "/weekly-work/",
           "date": ""
