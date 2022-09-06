@@ -8,8 +8,8 @@ $overlay-light: mix($dark-grey, white, 86%);
 
 html, body, input, textarea, select, button {   
   color: $high-emph !important;
-//  background-color: $dark-grey !important;
-    background: linear-gradient(to left, red, blue);
+    background-color: $dark-grey !important;
+    
 }
 
 a {
@@ -25,8 +25,9 @@ a:hover {
 }
 
 .site-nav {
-    background-color: $dark-grey;
+ //   background-color: $dark-grey;
     border-color: $overlay-light;
+    background-image: linear-gradient(to left, red, blue);
     
 }
 
