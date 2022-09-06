@@ -140,7 +140,12 @@ window.onload = wrap_img;
 
   <div class="post-content e-content" itemprop="articleBody">
     <ul id="toc" class="section-nav">
-<li class="toc-entry toc-h1"><a href="#Reverse-database">Reverse database </a></li>
+<li class="toc-entry toc-h1"><a href="#Explanation-of-what-the-code-does:">Explanation of what the code does: </a></li>
+<li class="toc-entry toc-h1"><a href="#Reverse-database">Reverse database </a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#How-the-code-works">How the code works </a></li>
+</ul>
+</li>
 <li class="toc-entry toc-h1"><a href="#Add-your-own-record-to-the-database">Add your own record to the database </a></li>
 <li class="toc-entry toc-h1"><a href="#Learning">Learning </a>
 <ul>
@@ -161,6 +166,18 @@ window.onload = wrap_img;
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Variables belong to a certain data type. Examples that we have seen before include: int, string, and bool.</p>
 <p>Lists and dictionaries are also types.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Explanation-of-what-the-code-does:">
+<a class="anchor" href="#Explanation-of-what-the-code-does:" aria-hidden="true"><span class="octicon octicon-link"></span></a>Explanation of what the code does:<a class="anchor-link" href="#Explanation-of-what-the-code-does:"> </a>
+</h1>
+<p>I first added three entries into the dictionary. Keys include <code>FirstName</code>, <code>LastName</code>, and some others that I created, such as <code>Hobbies</code> and <code>Sports played</code>.</p>
+<p>I used a for loop to print the records from the dictionary. The for loop ranges from 0 to the length of the dictionary, in this example, 2. I then printed each record by printing the index of the dictionary (InfoDb[i]), starting from 0, then 1 and finally 2.</p>
 
 </div>
 </div>
@@ -224,7 +241,6 @@ window.onload = wrap_img;
     <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">InfoDb</span><span class="p">)):</span>
         <span class="n">record</span> <span class="o">=</span> <span class="n">InfoDb</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
         <span class="n">print_data</span><span class="p">(</span><span class="n">record</span><span class="p">)</span>
-        <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
     <span class="k">return</span>
 
 <span class="n">for_loop</span><span class="p">()</span>
@@ -274,6 +290,11 @@ John Doe
 <h1 id="Reverse-database">
 <a class="anchor" href="#Reverse-database" aria-hidden="true"><span class="octicon octicon-link"></span></a>Reverse database<a class="anchor-link" href="#Reverse-database"> </a>
 </h1>
+<h2 id="How-the-code-works">
+<a class="anchor" href="#How-the-code-works" aria-hidden="true"><span class="octicon octicon-link"></span></a>How the code works<a class="anchor-link" href="#How-the-code-works"> </a>
+</h2>
+<p>This mainly used my code above. What I changed was using the <code>reversed</code> function for the for loop, which would print InfoDb[2], then InfoDb[1], and finally InfoDb[0].</p>
+
 </div>
 </div>
 </div>
@@ -476,7 +497,6 @@ Lily Wu
     <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">InfoDb</span><span class="p">)):</span>
         <span class="n">record</span> <span class="o">=</span> <span class="n">InfoDb</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
         <span class="n">print_data</span><span class="p">(</span><span class="n">record</span><span class="p">)</span>
-        <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
     <span class="k">return</span>
 
 <span class="n">for_loop</span><span class="p">()</span>
