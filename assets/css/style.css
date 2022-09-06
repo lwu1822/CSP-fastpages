@@ -427,7 +427,7 @@ pre code { font-size: 15px !important; }
 
 /*-----------------------------------*/
 /*----- ADD YOUR STYLES BELOW -------*/
-html, body, input, textarea, select, button { color: rgba(255, 255, 255, 0.87) !important; background-image: linear-gradient(to left, red, blue); }
+html, body, input, textarea, select, button { color: rgba(255, 255, 255, 0.87) !important; background-image: linear-gradient(to left, #ff9999, #7474ff); }
 
 a { color: #4bbaff !important; }
 
