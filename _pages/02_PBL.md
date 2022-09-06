@@ -22,7 +22,7 @@ permalink: /PBL/
         <th>Assignments</th>
     </tr>
     
-    {% assign assignments = [[First post](https://lwu1822.github.io/CSP-fastpages/jekyll-liquid/2022/08/31/jekyll-liquid.html)] | split: ',' %}
+    {% assign assignments = ["test", "test2" | split: ',' %}
     {% for i in assignments %}
     <tr>
         
