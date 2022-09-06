@@ -21,7 +21,8 @@ permalink: /PBL/
         <th>Week</th>
         <th>Assignments</th>
     </tr>
-    {% for i in (0..2) %}
+    {% assign assignments = "[First post](https://lwu1822.github.io/CSP-fastpages/jekyll-liquid/2022/08/31/jekyll-liquid.html)"}
+    {% for i in assignments %}
     <tr>
         
     <td>{{i}}</td>
