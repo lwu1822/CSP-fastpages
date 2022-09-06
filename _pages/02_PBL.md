@@ -22,8 +22,8 @@ permalink: /PBL/
         <th>Assignments</th>
     </tr>
     
-    <!-- if site.assignments = [First post](https://lwu1822.github.io/CSP-fastpages/jekyll-liquid/2022/08/31/jekyll-liquid.html) -->
-    {% for i in site.assignments %}
+    {% assign assignments = [[First post](https://lwu1822.github.io/CSP-fastpages/jekyll-liquid/2022/08/31/jekyll-liquid.html)] | split: ',' %}
+    {% for i in assignments %}
     <tr>
         
     <td>{{i}}</td>
