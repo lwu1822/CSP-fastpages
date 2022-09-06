@@ -22,6 +22,9 @@ permalink: /weekly-work/
     {% if i == 1 %}
     <td> <a href="https://lwu1822.github.io/CSP-fastpages/bash/2022/09/05/tools.html">Bash: Check if tools are installed</a></td>
     {% endif %}
+
+    { % if i == 2 %}
+    <td><a href="https://lwu1822.github.io/CSP-fastpages/python/2022/09/05/w2-dictionary.html">Dictionary</a><br><a href="https://lwu1822.github.io/CSP-fastpages/html/2022/09/05/2_html-css.html">HTML and CSS</a></td>
     </tr>
     {% endfor %}
     
