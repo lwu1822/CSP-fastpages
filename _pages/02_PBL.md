@@ -27,7 +27,7 @@ permalink: /weekly-work/
     <tr>
         <td>{{ i }}</td>
     {% if i == 1 %}
-        <td>test</td>
+        <td><a href="https://lwu1822.github.io/CSP-fastpages/jekyll-liquid/2022/08/31/jekyll-liquid.html">First post</a></td>
     {% endif %}
     </tr>
     {% endfor %}
