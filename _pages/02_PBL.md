@@ -23,14 +23,16 @@ permalink: /weekly-work/
     </tr>
     
     
+    {% for i in (1..3) %}
+    <tr>
+        <td>{{ i }}</td>
+    {% if i == 1 %}
+        <td>test</td>
+    {% endif %}
+    </tr>
+    {% endfor %}
+    
 
 
 </table>
 
-{% for i in (1..5) %}
-    {% if i == 4 %}
-        {% continue %}
-    {% else %}
-    {{ i }}
-    {% endif %}
-{% endfor %}
