@@ -95,7 +95,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      3 min read
+      4 min read
     
 </span></p>
 
@@ -140,6 +140,7 @@ window.onload = wrap_img;
 
   <div class="post-content e-content" itemprop="articleBody">
     <ul id="toc" class="section-nav">
+<li class="toc-entry toc-h1"><a href="#Reverse-database">Reverse database </a></li>
 <li class="toc-entry toc-h1"><a href="#Add-your-own-record-to-the-database">Add your own record to the database </a></li>
 </ul><!--
 #################################################
@@ -251,6 +252,118 @@ John Doe
 	 Favorite books: none
 	 Favorite food: Rice
 	 Hobbies: Youtube, Wasting time 🤪
+	 Sports played:  none
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Reverse-database">
+<a class="anchor" href="#Reverse-database" aria-hidden="true"><span class="octicon octicon-link"></span></a>Reverse database<a class="anchor-link" href="#Reverse-database"> </a>
+</h1>
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">InfoDb</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="c1"># InfoDB is a data structure with expected Keys and Values</span>
+
+<span class="c1"># Append to List a Dictionary of key/values related to a person and cars</span>
+<span class="n">InfoDb</span><span class="o">.</span><span class="n">append</span><span class="p">({</span>
+    <span class="s2">"FirstName"</span><span class="p">:</span> <span class="s2">"Lily"</span><span class="p">,</span>
+    <span class="s2">"LastName"</span><span class="p">:</span> <span class="s2">"Wu"</span><span class="p">,</span>
+    <span class="s2">"DOB"</span><span class="p">:</span> <span class="s2">"July 24"</span><span class="p">,</span>
+    <span class="s2">"Favorite books"</span><span class="p">:</span> <span class="p">[</span><span class="s2">"Salt to the Sea"</span><span class="p">,</span> <span class="s2">"Sherlock Holmes"</span><span class="p">],</span>
+    <span class="s2">"Favorite food"</span><span class="p">:</span> <span class="s2">"Shrimp"</span><span class="p">,</span>
+    <span class="s2">"Hobbies"</span><span class="p">:</span> <span class="p">[</span><span class="s2">"Reading"</span><span class="p">],</span>
+    <span class="s2">"Sports played"</span><span class="p">:</span> <span class="p">[</span><span class="s2">"none"</span><span class="p">]</span>   
+<span class="p">})</span>
+
+<span class="n">InfoDb</span><span class="o">.</span><span class="n">append</span><span class="p">({</span>
+    <span class="s2">"FirstName"</span><span class="p">:</span> <span class="s2">"Giannina"</span><span class="p">,</span>
+    <span class="s2">"LastName"</span><span class="p">:</span> <span class="s2">"Ortega Rico"</span><span class="p">,</span>
+    <span class="s2">"DOB"</span><span class="p">:</span> <span class="s2">"March 9"</span><span class="p">,</span>
+    <span class="s2">"Favorite books"</span><span class="p">:</span> <span class="p">[</span><span class="s2">"none"</span><span class="p">],</span>
+    <span class="s2">"Favorite food"</span><span class="p">:</span> <span class="s2">"none"</span><span class="p">,</span> 
+    <span class="s2">"Hobbies"</span><span class="p">:</span> <span class="p">[</span><span class="s2">"Reading"</span><span class="p">,</span> <span class="s2">"watching TV"</span><span class="p">],</span>
+    <span class="s2">"Sports played"</span><span class="p">:</span> <span class="p">[</span><span class="s2">"none"</span><span class="p">]</span>   
+<span class="p">})</span>
+
+<span class="n">InfoDb</span><span class="o">.</span><span class="n">append</span><span class="p">({</span>
+    <span class="s2">"FirstName"</span><span class="p">:</span> <span class="s2">"John"</span><span class="p">,</span>
+    <span class="s2">"LastName"</span><span class="p">:</span> <span class="s2">"Doe"</span><span class="p">,</span>
+    <span class="s2">"DOB"</span><span class="p">:</span> <span class="s2">"January 1"</span><span class="p">,</span>
+    <span class="s2">"Favorite books"</span><span class="p">:</span> <span class="p">[</span><span class="s2">"none"</span><span class="p">],</span>
+    <span class="s2">"Favorite food"</span><span class="p">:</span> <span class="s2">"Rice"</span><span class="p">,</span> 
+    <span class="s2">"Hobbies"</span><span class="p">:</span> <span class="p">[</span><span class="s2">"Youtube"</span><span class="p">,</span> <span class="s2">"Wasting time 🤪"</span><span class="p">],</span>
+    <span class="s2">"Sports played"</span><span class="p">:</span> <span class="p">[</span><span class="s2">"none"</span><span class="p">]</span>   
+<span class="p">})</span>
+
+
+
+<span class="k">def</span> <span class="nf">print_data</span><span class="p">(</span><span class="n">d_rec</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">d_rec</span><span class="p">[</span><span class="s2">"FirstName"</span><span class="p">],</span> <span class="n">d_rec</span><span class="p">[</span><span class="s2">"LastName"</span><span class="p">])</span>  <span class="c1"># using comma puts space between values</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\t</span><span class="s2">"</span><span class="p">,</span> <span class="s2">"Birthday 🥳:"</span><span class="p">,</span> <span class="n">d_rec</span><span class="p">[</span><span class="s2">"DOB"</span><span class="p">])</span> <span class="c1"># \t is a tab indent</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\t</span><span class="s2">"</span><span class="p">,</span> <span class="s2">"Favorite books: "</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s2">""</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">", "</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">d_rec</span><span class="p">[</span><span class="s2">"Favorite books"</span><span class="p">]))</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\t</span><span class="s2">"</span><span class="p">,</span> <span class="s2">"Favorite food:"</span><span class="p">,</span> <span class="n">d_rec</span><span class="p">[</span><span class="s2">"Favorite food"</span><span class="p">])</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\t</span><span class="s2">"</span><span class="p">,</span> <span class="s2">"Hobbies: "</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s2">""</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">", "</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">d_rec</span><span class="p">[</span><span class="s2">"Hobbies"</span><span class="p">]))</span>   
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\t</span><span class="s2">"</span><span class="p">,</span> <span class="s2">"Sports played:  "</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s2">""</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">", "</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">d_rec</span><span class="p">[</span><span class="s2">"Sports played"</span><span class="p">]))</span>  
+
+<span class="k">def</span> <span class="nf">for_loop_reverse</span><span class="p">():</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">reversed</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">InfoDb</span><span class="p">))):</span>
+        <span class="n">record</span> <span class="o">=</span> <span class="n">InfoDb</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+        <span class="n">print_data</span><span class="p">(</span><span class="n">record</span><span class="p">)</span>
+        <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="k">return</span>
+
+<span class="n">for_loop_reverse</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>John Doe
+	 Birthday 🥳: January 1
+	 Favorite books: none
+	 Favorite food: Rice
+	 Hobbies: Youtube, Wasting time 🤪
+	 Sports played:  none
+Giannina Ortega Rico
+	 Birthday 🥳: March 9
+	 Favorite books: none
+	 Favorite food: none
+	 Hobbies: Reading, watching TV
+	 Sports played:  none
+Lily Wu
+	 Birthday 🥳: July 24
+	 Favorite books: Salt to the Sea, Sherlock Holmes
+	 Favorite food: Shrimp
+	 Hobbies: Reading
 	 Sports played:  none
 </pre>
 </div>
