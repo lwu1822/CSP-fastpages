@@ -1,7 +1,7 @@
 ---
 layout: page
-title: PBL
-permalink: /PBL/
+title: Weekly Work
+permalink: /weekly-work/
 ---
 
 ## Week 0
@@ -22,11 +22,13 @@ permalink: /PBL/
         <th>Assignments</th>
     </tr>
     
-    {% assign assignments = ["test", "test2" | split: ',' %}
-    {% for i in assignments %}
+    {% for i in (0..2) %}
     <tr>
         
     <td>{{i}}</td>
+    {% if i == 0 }
+        <td>Week 1</td>
+    {% endif %}
     
         
         
