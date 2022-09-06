@@ -21,4 +21,11 @@ permalink: /PBL/
         <th>Week</th>
         <th>Assignments</th>
     </tr>
+    <tr>
+        {% for i in (0..2) %}
+            <td>{{i}}</td>
+        {% endfor %}
+        
+    </tr>
 </table>
+
