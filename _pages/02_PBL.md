@@ -26,9 +26,9 @@ permalink: /weekly-work/
     <tr>
         
     <td>{{i}}</td>
-    {% if i == 0 }
-        <td>Week 1</td>
-    {% endif %}
+        {% if i == 0 }
+            <td>Week 1</td>
+        {% endif %}
     
     </tr>
     {% endfor %}
