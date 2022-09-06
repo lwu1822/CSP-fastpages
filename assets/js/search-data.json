@@ -58,7 +58,7 @@
     
         ,"post5": {
             "title": "HTML and CSS",
-            "content": "I changed the theme from minima to minimal . . Overall, the minimal theme looked pretty similar to the minima theme. However, there were some problems with the new theme. . For some reason, when my window is maximized, the contents on the webpage are displayed incorrectly. . . But when I shrink my window, the contents are fine. . . I’m not sure why that is the case. Maybe if I have time, I’ll look into it. . . I reverted the theme back to minima. One thing that I did change though, was the background. I used Vunsh’s blog as a starting point and used his dark mode .scss as a base. Then, I changed the background color to a gradient using the linear-gradient command. .",
+            "content": "I changed the theme from minima to minimal . . . Overall, the minimal theme looked pretty similar to the minima theme. However, there were some problems with the new theme. . For some reason, when my window is maximized, the contents on the webpage are displayed incorrectly. . . But when I shrink my window, the contents are fine. . . I’m not sure why that is the case. Maybe if I have time, I’ll look into it. . . I reverted the theme back to minima. One thing that I did change though, was the background. I used Vunsh’s blog as a starting point and used his dark mode .scss as a base. Then, I changed the background color to a gradient using the linear-gradient command. .",
             "url": "https://lwu1822.github.io/CSP-fastpages/html/2022/09/05/2_html-css.html",
             "relUrl": "/html/2022/09/05/2_html-css.html",
             "date": " • Sep 5, 2022"
