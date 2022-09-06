@@ -30,8 +30,6 @@ permalink: /weekly-work/
         <td>Week 1</td>
     {% endif %}
     
-        
-        
     </tr>
     {% endfor %}
 </table>
