@@ -13,6 +13,28 @@
   
     
         ,"post1": {
+            "title": "Python",
+            "content": "print(&quot;Hello World!&quot;) . Hello World! .",
+            "url": "https://lwu1822.github.io/CSP-fastpages/python/2022/09/05/python.html",
+            "relUrl": "/python/2022/09/05/python.html",
+            "date": " • Sep 5, 2022"
+        }
+        
+    
+  
+    
+        ,"post2": {
+            "title": "Python Quiz",
+            "content": "import getpass,sys print(&quot;Welcome &quot; + getpass.getuser() + &quot;. Your Python shell is currently running on the path: &quot; + sys.executable) questions = [&quot;What is it called when something does not change?&quot;, &quot;What is the Python command that allows user input?&quot;, &quot;What do you use to combine different data types within the print statement?&quot;, &quot;What command is used to include other functions that were previously developed?&quot;, &quot;What command is used to evaluate correct or incorrect response in this example?&quot;, &quot;Each &#39;if&#39; command contains an &#39;_________&#39; to determine a true or false condition?&quot;] answers = [&quot;static text&quot;, &quot;input&quot;, &quot;concatenation&quot;, &quot;import&quot;, &quot;if&quot;, &quot;expression&quot;] questionNum = 6 score = 0 for i in range(questionNum): print(questions[i]) # This is solely so that the user can see the questions in the Jupyter Notebook output response = input(questions[i]) print(&quot;Answer: &quot; + response) # Again, to show the output if response == answers[i]: print(&quot;Correct!&quot;) score += 1 else: print(&quot;Incorrect&quot;) print(&quot;Your total score is: &quot; + str(score)) . Welcome lwu1822. Your Python shell is currently running on the path: /home/lwu1822/anaconda3/bin/python What is it called when something does not change? Answer: static text Correct! What is the Python command that allows user input? Answer: input Correct! What do you use to combine different data types within the print statement? Answer: concatenation Correct! What command is used to include other functions that were previously developed? Answer: import Correct! What command is used to evaluate correct or incorrect response in this example? Answer: if Correct! Each &#39;if&#39; command contains an &#39;_________&#39; to determine a true or false condition? Answer: expression Correct! Your total score is: 6 . How the rest of this post will be structured . This post captures my learnings from this page. . I will first document my learnings, and then display the code and its output below. . . In programming languages, a lot of the things within parenthesis are called parameters. . For example, in the code below, Hello World! would be an argument. . Static text: Text that stays the same. . print(&quot;Hello World!&quot;) . Hello World! . . Input and output . usr_input = input(&quot;Enter some text: &quot;) print(usr_input) . hi :) . . Function . Note: Indentation matters in Python . When creating a function, make sure to indent to tell Python which lines of code belong within the function (since Python does not use curly braces delineate functions). .",
+            "url": "https://lwu1822.github.io/CSP-fastpages/python/2022/09/05/hello-python.html",
+            "relUrl": "/python/2022/09/05/hello-python.html",
+            "date": " • Sep 5, 2022"
+        }
+        
+    
+  
+    
+        ,"post3": {
             "title": "APEL Notes",
             "content": "APEL . There are three areas of writing that APEL focuses on: rhetorical analysis, synthesis, and argumentative. . In Tri 1, we are learning rhetorical analysis. . Rhetorical analysis . Thesis . According to Collegeboard’s rubric, the thesis can be located anywhere within your essay. However, it is suggested to write your thesis somewhere in the intro paragraph, preferably as the last sentence. . The thesis must consist of two parts: a purpose verb and the author’s message .",
             "url": "https://lwu1822.github.io/CSP-fastpages/apel/2022/09/05/apel.html",
@@ -23,33 +45,11 @@
     
   
     
-        ,"post2": {
-            "title": "Python",
-            "content": "print(&quot;Hello World!&quot;) . Hello World! .",
-            "url": "https://lwu1822.github.io/CSP-fastpages/python/2022/09/04/python.html",
-            "relUrl": "/python/2022/09/04/python.html",
-            "date": " • Sep 4, 2022"
-        }
-        
-    
-  
-    
-        ,"post3": {
+        ,"post4": {
             "title": "HTML test",
             "content": "bolded text . bolded text with the b tag . italics . italics with i tag . underline . strikethrough strikethrough with del tag . H2O . x2 . . .",
             "url": "https://lwu1822.github.io/CSP-fastpages/test/2022/09/04/html-md-test.html",
             "relUrl": "/test/2022/09/04/html-md-test.html",
-            "date": " • Sep 4, 2022"
-        }
-        
-    
-  
-    
-        ,"post4": {
-            "title": "Hello Python",
-            "content": "",
-            "url": "https://lwu1822.github.io/CSP-fastpages/python/2022/09/04/hello-python.html",
-            "relUrl": "/python/2022/09/04/hello-python.html",
             "date": " • Sep 4, 2022"
         }
         
