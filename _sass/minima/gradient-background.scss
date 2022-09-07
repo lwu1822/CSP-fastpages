@@ -40,13 +40,13 @@ a:hover {
     scrollbar-color: $dark-grey $overlay-light;
 }
 
-/*
+//for small code block and output: black background, white text
 pre, code {
     // BVas a lighter colour to better highlight short code words
     border-color: $overlay-light;
     background-color: $overlay;
 }
-*/ 
+
 
 .page-description {
     color: $med-emph;
@@ -56,6 +56,7 @@ pre, code {
     color: $low-emph;
 }
 
+// General text white
 .post-content p, .post-content li {
     color: $med-emph;
 }
