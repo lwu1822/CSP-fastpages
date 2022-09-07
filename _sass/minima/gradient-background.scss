@@ -14,7 +14,10 @@ $dt-purple: #bd93f9;
 $dt-red: #ff5555;
 $dt-yellow: #f1fa8c;
 $dt-green-light: rgb(172, 229, 145);
+
 $white-background: rgba(rgb(255, 255, 255), 0.87);
+$med-emph: rgba(rgb(255, 255, 255), 0.69); //Noicee
+$low-emph: rgba(rgb(255, 255, 255), 0.38);
 
 html, body, input, textarea, select, button {   
     //color: $high-emph !important;
@@ -24,6 +27,10 @@ html, body, input, textarea, select, button {
 
 .site-title, .site-title:visited, .site-nav, .page-link {
     color: $white-background !important;
+}
+
+.post-meta {
+    color: $low-emph;
 }
 
 .language-python + .language-plaintext {
