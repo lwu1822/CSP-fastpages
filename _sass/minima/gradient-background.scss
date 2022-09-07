@@ -12,21 +12,24 @@ html, body, input, textarea, select, button {
     background-image: linear-gradient(to left, rgb(165, 0, 0), rgb(0, 0, 149));
 }
 
-/*
+// Link color = bright blue
 a {
     color: rgb(75, 186, 255) !important;
 }
 
+// When you hover over a link, it turns white
 a:hover {
     color:$high-emph !important;
 }
-*/
+
 
 .site-title, .site-title:visited, .site-nav, .page-link {
     color: $high-emph !important;
 }
 
-/*
+
+/* 
+// Makes top nav bar gray  
 .site-nav {
     background-color: $dark-grey;
     border-color: $overlay-light;
@@ -37,11 +40,13 @@ a:hover {
     scrollbar-color: $dark-grey $overlay-light;
 }
 
+/*
 pre, code {
     // BVas a lighter colour to better highlight short code words
     border-color: $overlay-light;
     background-color: $overlay;
 }
+*/ 
 
 .page-description {
     color: $med-emph;
