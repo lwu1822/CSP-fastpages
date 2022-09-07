@@ -121,7 +121,7 @@ a:hover {
 
 
 .language-python + .language-plaintext {
-    border-left: 1px solid #ffffff;
+    border-left: 1px solid #808080;
     margin-left: 1rem !important;
 }
 
@@ -132,8 +132,8 @@ a:hover {
     color: $dt-gray-light;
 }
 
-.language-python + .language-plaintext code { background-color: rgb(0, 0, 0) !important; }
-.language-python + .language-plaintext pre  { background-color: #000000 !important; }
+.language-python + .language-plaintext code { background-color: #ffffff !important; }
+.language-python + .language-plaintext pre  { background-color: #ffffff !important; }
 
 // for Jupyter Notebook HTML Code Cells modified from https://www.fast.ai/public/css/hyde.css
 
