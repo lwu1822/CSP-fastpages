@@ -8,7 +8,7 @@ This page will mainly be for capturing my learning on Python, which is the main 
 
 I will also be linking my notes on other programming languages at the  of bottom this page. 
 
-If you would like to see what I did for each week's project based learning, click [here](https://lwu1822.github.io/CSP-fastpages/PBL/)
+If you would like to see what I did for each week's assignments, click [here](https://lwu1822.github.io/CSP-fastpages/weekly-work/)
 
 # Links
 
