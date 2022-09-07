@@ -484,14 +484,16 @@ p code { font-size: 19px; }
 
 html, body, input, textarea, select, button { color: rgba(255, 255, 255, 0.87) !important; background-image: linear-gradient(to left, #a50000, #000095); }
 
-/* a { color: rgb(75, 186, 255) !important; } a:hover { color:$high-emph !important; } */
+a { color: #4bbaff !important; }
+
+a:hover { color: rgba(255, 255, 255, 0.87) !important; }
+
 .site-title, .site-title:visited, .site-nav, .page-link { color: rgba(255, 255, 255, 0.87) !important; }
 
-/* .site-nav { background-color: $dark-grey; border-color: $overlay-light; } */
+/*  // Makes top nav bar gray   .site-nav { background-color: $dark-grey; border-color: $overlay-light; } */
 * { scrollbar-color: #121212 #333333; }
 
-pre, code { border-color: #333333; background-color: #1e1e1e; }
-
+/* pre, code { // BVas a lighter colour to better highlight short code words border-color: $overlay-light; background-color: $overlay; } */
 .page-description { color: rgba(255, 255, 255, 0.69); }
 
 .post-meta { color: rgba(255, 255, 255, 0.38); }
