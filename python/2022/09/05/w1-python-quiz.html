@@ -95,7 +95,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      2 min read
+      3 min read
     
 </span></p>
 
@@ -299,6 +299,9 @@ Your total score is: 5
 <h2 id="Input-and-output">
 <a class="anchor" href="#Input-and-output" aria-hidden="true"><span class="octicon octicon-link"></span></a>Input and output<a class="anchor-link" href="#Input-and-output"> </a>
 </h2>
+<p>This is known as dynamic, versus static. Dynamic means that a variable can change each time you run the code. For example, each time you run the code, the input could change.</p>
+<p>In Python code, the things specified in parenthesis are known as <mark>parameters</mark>. For example, in the code below, <code>usr_input</code> is a parameter.</p>
+
 </div>
 </div>
 </div>
@@ -342,11 +345,56 @@ Your total score is: 5
 <a class="anchor" href="#Function" aria-hidden="true"><span class="octicon octicon-link"></span></a>Function<a class="anchor-link" href="#Function"> </a>
 </h2>
 <p><strong>Note: Indentation matters in Python</strong></p>
-<p>When creating a function, make sure to indent to tell Python which lines of code belong within the function (since Python does not use curly braces delineate functions).</p>
+<p>When creating a function, make sure to indent to tell Python which lines of code belong within the function (since Python does not use curly braces to delineate functions).</p>
+<p>Functions are created with the <code>def</code> keyword.</p>
 
 </div>
 </div>
 </div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">addNum</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+    <span class="k">return</span> <span class="nb">int</span><span class="p">(</span><span class="n">a</span><span class="p">)</span> <span class="o">+</span> <span class="nb">int</span><span class="p">(</span><span class="n">b</span><span class="p">)</span>
+     
+
+<span class="n">num1</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Enter 1st number: "</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Enter 1st number: "</span> <span class="o">+</span> <span class="n">num1</span><span class="p">)</span>
+<span class="n">num2</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Enter 2nd number: "</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Enter 2nd number: "</span> <span class="o">+</span> <span class="n">num2</span><span class="p">)</span> 
+
+<span class="n">total</span> <span class="o">=</span> <span class="n">addNum</span><span class="p">(</span><span class="n">num1</span><span class="p">,</span> <span class="n">num2</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Your total is: "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">total</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Enter 1st number: 1
+Enter 2nd number: 2
+Your total is: 3
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
 </div>
 
 
