@@ -484,10 +484,7 @@ p code { font-size: 19px; }
 
 html, body, input, textarea, select, button { color: rgba(255, 255, 255, 0.87) !important; background-image: linear-gradient(to left, #a50000, #000095); }
 
-a { color: #4bbaff !important; }
-
-a:hover { color: rgba(255, 255, 255, 0.87) !important; }
-
+/* a { color: rgb(75, 186, 255) !important; } a:hover { color:$high-emph !important; } */
 .site-title, .site-title:visited, .site-nav, .page-link { color: rgba(255, 255, 255, 0.87) !important; }
 
 /* .site-nav { background-color: $dark-grey; border-color: $overlay-light; } */
