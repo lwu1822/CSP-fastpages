@@ -33,6 +33,10 @@ html, body, input, textarea, select, button {
     color: $low-emph;
 }
 
+.post-content p, .post-content li {
+    color: $med-emph;
+}
+
 .language-python + .language-plaintext {
     border-left: 1px solid #808080;
     margin-left: 1rem !important;
