@@ -12,6 +12,7 @@ html, body, input, textarea, select, button {
     background-image: linear-gradient(to left, rgb(165, 0, 0), rgb(0, 0, 149));
 }
 
+/*
 a {
     color: rgb(75, 186, 255) !important;
 }
@@ -19,6 +20,7 @@ a {
 a:hover {
     color:$high-emph !important;
 }
+*/
 
 .site-title, .site-title:visited, .site-nav, .page-link {
     color: $high-emph !important;
