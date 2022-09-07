@@ -46,9 +46,75 @@ pre, code {  //for small code block and output: black background, white text
     background-color: $overlay;
 }
 
+
+.btn {
+    background-color: $overlay !important;
+    color: $high-emph !important;
+    border-color: $overlay-light !important;
+}
+
+.btn:hover {
+    background-color: $dark-grey !important;
+}
+
+table th{
+    background-color: $overlay;
+    border-color: $overlay-light;
+    color: $high-emph;
+}
+
+table td{
+    background-color: $dark-grey;
+    border-color: $overlay-light;
+    color: $med-emph;
+}
+
+.flash {
+    color: $dark-grey !important;
+    filter: brightness(80%);
+}
+
+canvas {
+    filter: invert(100%);
+}
+
+.post-list > li > div {
+    box-shadow: none !important;
+    background-color: $overlay;
+    border: none !important;
+}
+
 li .post-meta-description {
     color: $med-emph !important;
 }
+
+.page-description {
+    color: $med-emph;
+}
+
+.post-meta {
+    color: $low-emph;
+}
+
+a {
+    color: rgb(75, 186, 255) !important;
+}
+
+a:hover {
+    color:$high-emph !important;
+}
+
+.site-nav {
+    background-color: $dark-grey;
+    border-color: $overlay-light;
+    
+    
+}
+
+* {
+    scrollbar-color: $dark-grey $overlay-light;
+}
+
 
 
 
