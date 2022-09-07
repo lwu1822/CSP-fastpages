@@ -1,3 +1,5 @@
+// Note to self: Do not add in .post-meta
+
 // Override Syntax Highlighting In Minima With the Dracula Theme: https://draculatheme.com/
 // If you wish to override any of this CSS, do so in _sass/minima/custom-styles.css
  
@@ -30,12 +32,13 @@ html, body, input, textarea, select, button {
 }
 
 
+
 .post-content p, .post-content li {
     color: $med-emph;
 }
 
 .language-python + .language-plaintext {
-    border-left: 1px solid #808080;
+    border-left: 1px solid #ffffff;
     margin-left: 1rem !important;
 }
 
@@ -46,8 +49,8 @@ html, body, input, textarea, select, button {
     color: $dt-gray-light;
 }
 
-.language-python + .language-plaintext code { background-color: white !important; }
-.language-python + .language-plaintext pre  { background-color: white !important; }
+.language-python + .language-plaintext code { background-color: rgb(0, 0, 0) !important; }
+.language-python + .language-plaintext pre  { background-color: #000000 !important; }
 
 // for Jupyter Notebook HTML Code Cells modified from https://www.fast.ai/public/css/hyde.css
 
