@@ -95,7 +95,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      3 min read
+      4 min read
     
 </span></p>
 
@@ -141,7 +141,11 @@ window.onload = wrap_img;
   <div class="post-content e-content" itemprop="articleBody">
     <ul id="toc" class="section-nav">
 <li class="toc-entry toc-h1"><a href="#Basic-commands">Basic commands </a></li>
-<li class="toc-entry toc-h1"><a href="#Variables">Variables </a></li>
+<li class="toc-entry toc-h1"><a href="#Variables">Variables </a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#What-does-export-do?">What does export do? </a></li>
+</ul>
+</li>
 <li class="toc-entry toc-h1"><a href="#Python-versions">Python versions </a></li>
 <li class="toc-entry toc-h1"><a href="#Playing-with-some-Regex">Playing with some Regex </a></li>
 <li class="toc-entry toc-h1"><a href="#Jupyter-Check">Jupyter Check </a></li>
@@ -309,6 +313,20 @@ $text
 </div>
     
 
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><br></p>
+<h3 id="What-does-export-do?">
+<a class="anchor" href="#What-does-export-do?" aria-hidden="true"><span class="octicon octicon-link"></span></a>What does <code>export</code> do?<a class="anchor-link" href="#What-does-export-do?"> </a>
+</h3>
+<p>While going through the <a href="https://nighthawkcoders.github.io/APCSP/techtalk/bash">Bash Tutorial</a>, I noticed that variables were declared with the <code>export</code> command, ex: <code>export x=5</code>.</p>
+<p>I wondered what the difference was between <code>export</code>, and straight up declaring the variable, like this: <code>x=5</code>.</p>
+<p>The answer is simple. Quoting from <a href="https://superuser.com/questions/153371/what-does-export-do-in-bash">Super User</a> (a community in Stack Exchange), "Exported variables get passed on to child processes, not-exported variables do not."</p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -573,11 +591,118 @@ Available kernels:
 <h1 id="Directories">
 <a class="anchor" href="#Directories" aria-hidden="true"><span class="octicon octicon-link"></span></a>Directories<a class="anchor-link" href="#Directories"> </a>
 </h1>
-<p>Check if the APCSP repo exists in /home/lwu1822/vscode/hack</p>
+<p>Check if the APCSP repo exists in /home/lwu1822/vscode/hack. If not, clone the APCSP repo into the directory.</p>
 
 </div>
 </div>
 </div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-bash"><pre><span></span><span class="nb">cd</span> /home/lwu1822/vscode/hack
+
+<span class="k">if</span> <span class="o">[</span> ! -d APCSP <span class="o">]</span> <span class="p">;</span> <span class="k">then</span> 
+    <span class="nb">echo</span> <span class="s2">"APCSP repo does not exist in this directory"</span>
+    <span class="nb">echo</span> <span class="s2">"Cloning APCSP repo"</span>
+    git clone <span class="s2">"https://github.com/nighthawkcoders/APCSP.git"</span>
+<span class="k">else</span> 
+    <span class="nb">echo</span> <span class="s2">"APCSP repo does exist in this directory"</span>
+<span class="k">fi</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>APCSP repo does not exist in this directory
+Cloning APCSP repo
+Cloning into 'APCSP'...
+remote: Enumerating objects: 10655, done.
+remote: Counting objects: 100% (2230/2230), done.
+remote: Compressing objects: 100% (774/774), done.
+remote: Total 10655 (delta 1382), reused 2178 (delta 1331), pack-reused 8425
+Receiving objects: 100% (10655/10655), 17.37 MiB | 2.26 MiB/s, done.
+Resolving deltas: 100% (5877/5877), done.
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><br></p>
+<p>Check again to see if APCSP directory exists.</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<details class="description">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p></p>
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-bash"><pre><span></span><span class="nb">cd</span> /home/lwu1822/vscode/hack
+
+<span class="nb">echo</span> <span class="s2">"Listing /home/lwu1822/vscode/hack"</span>
+ls 
+
+<span class="nb">echo</span> <span class="s2">"Does APCSP repo exist in this directory?"</span>
+
+<span class="k">if</span> <span class="o">[</span> ! -d APCSP <span class="o">]</span> <span class="p">;</span> <span class="k">then</span> 
+    <span class="nb">echo</span> <span class="s2">"APCSP repo does not exist in this directory"</span>
+    <span class="nb">echo</span> <span class="s2">"Cloning APCSP repo"</span>
+    git clone <span class="s2">"https://github.com/nighthawkcoders/APCSP.git"</span>
+<span class="k">else</span> 
+    <span class="nb">echo</span> <span class="s2">"APCSP repo does exist in this directory"</span>
+<span class="k">fi</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+    </details>
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Listing /home/lwu1822/vscode/hack
+<span class="ansi-blue-intense-fg ansi-bold">APCSP</span>  <span class="ansi-green-intense-fg ansi-bold">foo.sh</span>  <span class="ansi-green-intense-fg ansi-bold">test.sh</span>
+Does APCSP repo exist in this directory?
+APCSP repo does exist in this directory
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
