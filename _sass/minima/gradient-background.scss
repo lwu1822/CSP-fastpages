@@ -31,20 +31,29 @@ html, body, input, textarea, select, button {
       background-image: linear-gradient(to left, rgb(165, 0, 0), rgb(0, 0, 149));
 }
 
-.site-title, .site-title:visited, .site-nav, .page-link {
+.site-title, .site-title:visited, .site-nav, .page-link { //top nav bar gray
     color: $white-background !important;
 }
 
-.post-content p, .post-content li {
+.post-content p, .post-content li { // General text white
     color: $med-emph;
 }
 
-pre, code {
+pre, code {  //for small code block and output: black background, white text
     // BVas a lighter colour to better highlight short code words
     border-color: $overlay-light;
     background-color: $overlay;
 }
 
+.btn {
+    background-color: $overlay !important;
+    color: $high-emph !important;
+    border-color: $overlay-light !important;
+}
+
+.btn:hover {
+    background-color: $dark-grey !important;
+}
 
 
 
