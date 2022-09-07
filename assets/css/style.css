@@ -435,6 +435,10 @@ html, body, input, textarea, select, button { background-image: linear-gradient(
 
 pre, code { border-color: #333333; background-color: #1e1e1e; }
 
+.btn { background-color: #1e1e1e !important; color: rgba(255, 255, 255, 0.87) !important; border-color: #333333 !important; }
+
+.btn:hover { background-color: #121212 !important; }
+
 .language-python + .language-plaintext { border-left: 1px solid #ffffff; margin-left: 1rem !important; }
 
 [class^="language-"]:not(.language-plaintext) pre, [class^="language-"]:not(.language-plaintext) code { background-color: #323443 !important; color: #f8f8f2; }
