@@ -429,7 +429,9 @@ pre code { font-size: 15px !important; }
 /*----- ADD YOUR STYLES BELOW -------*/
 html, body, input, textarea, select, button { background-image: linear-gradient(to left, #a50000, #000095); }
 
-.language-python + .language-plaintext { border-left: 1px solid #f5f5f5; margin-left: 1rem !important; }
+.site-title, .site-title:visited, .site-nav, .page-link { color: rgba(255, 255, 255, 0.87) !important; }
+
+.language-python + .language-plaintext { border-left: 1px solid #808080; margin-left: 1rem !important; }
 
 [class^="language-"]:not(.language-plaintext) pre, [class^="language-"]:not(.language-plaintext) code { background-color: #323443 !important; color: #f8f8f2; }
 
@@ -437,7 +439,7 @@ html, body, input, textarea, select, button { background-image: linear-gradient(
 
 .language-python + .language-plaintext pre { background-color: white !important; }
 
-.input_area pre, .input_area div { margin-bottom: 1.0rem !important; margin-top: 1.5rem !important; padding-bottom: 0 !important; padding-top: 0 !important; background: #e6e6e6 !important; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; font-family: Menlo, Monaco, Consolas, "Lucida Console", Roboto, Ubuntu, monospace; border-radius: 5px; font-size: 105%; }
+.input_area pre, .input_area div { margin-bottom: 1.0rem !important; margin-top: 1.5rem !important; padding-bottom: 0 !important; padding-top: 0 !important; background: #323443 !important; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; font-family: Menlo, Monaco, Consolas, "Lucida Console", Roboto, Ubuntu, monospace; border-radius: 5px; font-size: 105%; }
 
 .output_area pre, .output_area div { margin-bottom: 1rem !important; margin-top: 0rem !important; padding-bottom: 0 !important; padding-top: 0 !important; }
 
