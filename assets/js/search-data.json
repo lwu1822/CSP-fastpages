@@ -58,7 +58,7 @@
     
         ,"post5": {
             "title": "HTML and CSS",
-            "content": "I changed the theme from minima to minimal . . Overall, the minimal theme looked pretty similar to the minima theme. However, there were some problems with the new theme. . For some reason, when my window is maximized, the contents on the webpage are displayed incorrectly. . . But when I shrink my window, the contents are fine. . . I’m not sure why that is the case. Maybe if I have time, I’ll look into it. . . I reverted the theme back to minima. However, I wanted to change the background to something cool, maybe like a gradient. I used Vunsh’s blog as a starting point and used his dark mode .scss file (thanks!). Then, I changed the background color to a gradient using the linear-gradient command within the html, body, input, textarea, select, button block. . That’s pretty much all I changed. Looking at the .scss file, there were many parts of the code that I didn’t understand. By commenting and uncommenting each block of code, I was able to learn what they did. Here are my comments on some of the code. . . Some thoughts . I like the new theme, but I think there’s some things that I could change. . For instance, I don’t really like the font colors for the code here: . . However, this class isn’t mainly focused around CSS, so I’ll probably change the font colors only if I have time. .",
+            "content": "I changed the theme from minima to minimal . . Overall, the minimal theme looked pretty similar to the minima theme. However, there were some problems with the new theme. . For some reason, when my window is maximized, the contents on the webpage are displayed incorrectly. . . But when I shrink my window, the contents are fine. . . I’m not sure why that is the case. Maybe if I have time, I’ll look into it. . . I reverted the theme back to minima. However, I wanted to change the background to something cool, maybe like a gradient. I used Vunsh’s blog as a starting point and used his dark mode .scss file (thanks!). Then, I changed the background color to a gradient using the linear-gradient command within the html, body, input, textarea, select, button block. . That’s pretty much all I changed. Looking at the .scss file, there were many parts of the code that I didn’t understand. By commenting and uncommenting each block of code, I was able to learn what they did. Here are my comments on some of the code. . . Some thoughts . I like the new theme, but I think there’s some things that I could change. . For instance, I don’t really like the font colors for the code here: . . However, this class isn’t mainly focused around CSS, so I’ll probably change the font colors only if I have time. . Table . Alright, I’m going to be honest. This took me hours to figure out, mainly because I had errors in my Liquid syntax because I forgot to include a space ╥﹏╥. . This is the page where I created my table and linked my weekly assignments. . I started off with a for loop using the {% for i in ([start num]..[end num]) %} template, where i is the week number. I then created each row in the table starting with the week number by printing {{i}}. I also used if statements ({% if i == # %}) and printed the links to my pages depending on the value of i. So if i == 0, I would print the links to Week 0, etc. .",
             "url": "https://lwu1822.github.io/CSP-fastpages/html/2022/09/05/2_html-css.html",
             "relUrl": "/html/2022/09/05/2_html-css.html",
             "date": " • Sep 5, 2022"
@@ -126,7 +126,7 @@
   
       ,"page1": {
           "title": "Notes",
-          "content": "This page will mainly be for capturing my learning on Python, which is the main language that we will be learning for AP CSP. . I will also be linking my notes on other programming languages at the of bottom this page. . If you would like to see what I did for each week’s assignments, click here . Links . Jekyll and Liquid .",
+          "content": "This page will mainly be for capturing my learning on Python, which is the main language that we will be learning for AP CSP. . I will also be linking my notes on other programming languages at the of bottom this page. . If you would like to see what I did for each week’s assignments, click here . Print . print(&quot;text&quot;) . Input . input(&quot;text&quot;) . Functions . def [funcName](para) { // code // if you do arithmetic, you need to return with the return command } . Libraries . import [library] . Examples of libraries: getpass sys . Links . Jekyll and Liquid .",
           "url": "https://lwu1822.github.io/CSP-fastpages/notes/",
           "relUrl": "/notes/",
           "date": ""
@@ -137,7 +137,7 @@
   
       ,"page2": {
           "title": "Weekly Work",
-          "content": "Week Assignments . 0 | First post Python | . 1 | Bash: Check if tools are installed | . 2 | Dictionary HTML and CSS | .",
+          "content": "Week Assignments . 0 | First post Python | . 1 | Python quiz Bash: Check if tools are installed Notes | . 2 | Dictionary HTML and CSS | .",
           "url": "https://lwu1822.github.io/CSP-fastpages/weekly-work/",
           "relUrl": "/weekly-work/",
           "date": ""

@@ -113,6 +113,7 @@ window.onload = wrap_img;
   <div class="post-content e-content" itemprop="articleBody">
     <ul id="toc" class="section-nav">
 <li class="toc-entry toc-h2"><a href="#some-thoughts">Some thoughts</a></li>
+<li class="toc-entry toc-h1"><a href="#table">Table</a></li>
 </ul><p>I changed the theme from minima to <strong>minimal</strong></p>
 
 <p><img src="/CSP-fastpages/images/minimal_theme.png" alt="" title="I changed the theme from minima to minimal"></p>
@@ -147,6 +148,16 @@ window.onload = wrap_img;
 <p><img src="/CSP-fastpages/images/w2-html-css-bad_code_color.png" alt=""></p>
 
 <p>However, this class isn’t mainly focused around CSS, so I’ll probably change the font colors only if I have time.</p>
+
+<h1 id="table">
+<a class="anchor" href="#table" aria-hidden="true"><span class="octicon octicon-link"></span></a>Table</h1>
+
+<p>Alright, I’m going to be honest. This took me hours to figure out, mainly because I had errors in my Liquid syntax because I forgot to include a space ╥﹏╥.</p>
+
+<p>This is the <a href="https://lwu1822.github.io/CSP-fastpages/weekly-work/">page</a> where I created my table and linked my weekly assignments.</p>
+
+<p>I started off with a for loop using the <code class="language-plaintext highlighter-rouge">{% for i in ([start num]..[end num]) %}</code> template, where <code class="language-plaintext highlighter-rouge">i</code> is the week number. I then created each row in the table starting with the week number by printing <code class="language-plaintext highlighter-rouge">{{i}}</code>. I also used if statements (<code class="language-plaintext highlighter-rouge">{% if i == # %}</code>) and printed the links to my pages depending on the value of <code class="language-plaintext highlighter-rouge">i</code>. So if <code class="language-plaintext highlighter-rouge">i == 0</code>, I would print the links to Week 0, etc.</p>
+
 
   </div><a class="u-url" href="/CSP-fastpages/html/2022/09/05/2_html-css.html" hidden></a>
 </article>
