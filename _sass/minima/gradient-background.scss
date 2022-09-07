@@ -46,14 +46,8 @@ pre, code {  //for small code block and output: black background, white text
     background-color: $overlay;
 }
 
-.btn {
-    background-color: $overlay !important;
-    color: $high-emph !important;
-    border-color: $overlay-light !important;
-}
-
-.btn:hover {
-    background-color: $dark-grey !important;
+li .post-meta-description {
+    color: $med-emph !important;
 }
 
 
