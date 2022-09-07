@@ -429,7 +429,7 @@ pre code { font-size: 15px !important; }
 /*----- ADD YOUR STYLES BELOW -------*/
 html, body, input, textarea, select, button { background-image: linear-gradient(to left, #a50000, #000095); }
 
-.language-python + .language-plaintext { border-left: 1px solid grey; margin-left: 1rem !important; }
+.language-python + .language-plaintext { border-left: 1px solid #f5f5f5; margin-left: 1rem !important; }
 
 [class^="language-"]:not(.language-plaintext) pre, [class^="language-"]:not(.language-plaintext) code { background-color: #323443 !important; color: #f8f8f2; }
 
