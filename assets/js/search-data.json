@@ -2,21 +2,21 @@
   
     
         "post0": {
-            "title": "App Lab Plan",
-            "content": "Subject . Since I’m in AP Stats, I decided to create a statistics quiz. . Questions . What is the mean of the following set of numbers: 5, 8, 9, 15, 16? | | A class of 30 students were surveyed on how many hours they sleep. The average was 7 hours with a standard deviation of 1.5 hours. What percentage of students sleep less than 8 hours? | Coding . Explanations of code . Things I learned . The code I encountered in AppLab was new to me, so I had to constantly refer to the documentation 1. . Documentation 1 and 2 &#8617; . |",
-            "url": "https://lwu1822.github.io/CSP-fastpages/code.org/2022/09/08/w3-app-lab-plan.html",
-            "relUrl": "/code.org/2022/09/08/w3-app-lab-plan.html",
-            "date": " • Sep 8, 2022"
+            "title": "Python",
+            "content": "print(&quot;Hello World!&quot;) . Hello World! .",
+            "url": "https://lwu1822.github.io/CSP-fastpages/python/2022/09/09/python.html",
+            "relUrl": "/python/2022/09/09/python.html",
+            "date": " • Sep 9, 2022"
         }
         
     
   
     
         ,"post1": {
-            "title": "Python",
-            "content": "print(&quot;Hello World!&quot;) . Hello World! .",
-            "url": "https://lwu1822.github.io/CSP-fastpages/python/2022/09/08/python.html",
-            "relUrl": "/python/2022/09/08/python.html",
+            "title": "App Lab Plan",
+            "content": "Subject . Since I’m in AP Stats, I decided to create a statistics quiz. . Questions . What is the mean of the following set of numbers: 5, 8, 9, 15, 16? | | A class of 30 students were surveyed on how many hours they sleep. The average was 7 hours with a standard deviation of 1.5 hours. What percentage of students sleep less than 8 hours? | Coding . Explanations of code . Things I learned . The code I encountered in AppLab was new to me. I used the documentation 1 very frequently. . Documentation 1 and 2 &#8617; . |",
+            "url": "https://lwu1822.github.io/CSP-fastpages/code.org/2022/09/08/w3-app-lab-plan.html",
+            "relUrl": "/code.org/2022/09/08/w3-app-lab-plan.html",
             "date": " • Sep 8, 2022"
         }
         
