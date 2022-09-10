@@ -22,6 +22,7 @@ Since I'm in AP Stats, I decided to create a statistics quiz.
 
 ### Things I learned
 
-The code I encountered in AppLab was new to me, so I had to constantly refer to the documentation [^1].
+The code I encountered in AppLab was new to me. I used the documentation [^1] very frequently.
+
 
 [^1]: [Documentation 1](https://studio.code.org/docs/ide/applab/expressions/button) and [2](https://studio.code.org/docs/concepts/)
