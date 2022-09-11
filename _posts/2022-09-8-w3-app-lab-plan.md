@@ -25,6 +25,15 @@ Below are some pictures of what the initial design looked like:
 
 <img src="https://lwu1822.github.io/CSP-fastpages/images/w3AppLabPlan-appLabOriginalAnswer.jpg" alt="Original text" width="140" height="179">
 
+After the initial design, I made a few revisions, namely changing the font, adding buttons (originally, the user had to click the screen), and adding radio buttons for the multiple choice selection. 
+
+An intermediate photo where I added a button: 
+
+<img src="https://lwu1822.github.io/CSP-fastpages/images/w3AppLabPlan-appLabButtonChange.jpg" alt="Button added" width="149" height="207">
+
+One of my screens on the final design: 
+
+<img src="https://lwu1822.github.io/CSP-fastpages/images/w3AppLabPlan-appLabFontChange.jpg" alt="Original text" width="138" height="210">
 
 
 ## Coding
