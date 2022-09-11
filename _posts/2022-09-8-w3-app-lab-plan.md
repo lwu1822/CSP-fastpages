@@ -7,6 +7,8 @@ title: App Lab Plan
 comments: true
 ---
 
+Here is the [link](https://studio.code.org/projects/applab/dbyn_t-_ioCVUC9PB3UiDjg0mKNmHCLnMy0F5ND1uRY) to my app. 
+
 ## Subject
 
 Since I'm in AP Stats, I decided to create a statistics quiz. 
@@ -42,14 +44,22 @@ My code is relatively simple. A majority of the code used the `onEvent` function
 
 ### Explanations of code
 
-This is a screenshot of part of my code. The rest of my code followed basically the same format. If you wish to check out my code, you can do so here.
+This is a screenshot of part of my code. The rest of my code followed basically the same format. If you wish to check out my code, you can do so [here](https://studio.code.org/projects/applab/dbyn_t-_ioCVUC9PB3UiDjg0mKNmHCLnMy0F5ND1uRY/view).
 
 <img src="https://lwu1822.github.io/CSP-fastpages/images/w3AppLabPlan-appLabCode.jpg" alt="My AppLab code">
+
+Here's how the code works: 
+
+The first block of code is an `onEvent` function, in which when the next button (`q1ButtonNext`) was pressed, the app screen will change to the next question (`q2Screen`).
+
+The second block of code is another `onEvent` function. This time though, when choice B is selected (`q1ButtonB`), a predefined variable `score` will increase by 1. 
 
 
 ### Things I learned
 
 The code I encountered in AppLab was new to me. I used the documentation [^1] very frequently.
+
+I had to learn most of the things I coded. The most important code that I learned was the `onEvent` function. You can use it to specify an action to do when a certain event occurs, such as the press of a button. 
 
 
 [^1]: [Documentation 1](https://studio.code.org/docs/ide/applab/expressions/button) and [2](https://studio.code.org/docs/concepts/)
