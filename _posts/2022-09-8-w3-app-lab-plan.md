@@ -13,7 +13,7 @@ Since I'm in AP Stats, I decided to create a statistics quiz.
 
 ## Questions
 1. What is the mean of the following set of numbers: 5, 8, 9, 15, 16?
-2. [Normal distribution picture]: What percent of data lies between one standard deviation of the mean?
+2. (Normal distribution picture): What percent of data lies between one standard deviation of the mean?
 3. A class of 30 students were surveyed on how many hours they sleep. The average was 7 hours with a standard deviation of 1.5 hours. What percentage of students sleep less than 8 hours? 
 
 ## Design
@@ -38,7 +38,14 @@ One of my screens on the final design:
 
 ## Coding
 
+My code is relatively simple. A majority of the code used the `onEvent` function. I used the function for two purposes, the first was to change the screen when the Next button was pressed, and the second was to increase the score if the correct multiple choice was selected. 
+
 ### Explanations of code
+
+This is a screenshot of part of my code. The rest of my code followed basically the same format. If you wish to check out my code, you can do so here.
+
+<img src="https://lwu1822.github.io/CSP-fastpages/images/w3AppLabPlan-appLabCode.jpg" alt="My AppLab code">
+
 
 ### Things I learned
 
