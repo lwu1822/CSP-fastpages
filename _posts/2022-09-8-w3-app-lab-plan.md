@@ -16,6 +16,17 @@ Since I'm in AP Stats, I decided to create a statistics quiz.
 2. [Normal distribution picture]: What percent of data lies between one standard deviation of the mean?
 3. A class of 30 students were surveyed on how many hours they sleep. The average was 7 hours with a standard deviation of 1.5 hours. What percentage of students sleep less than 8 hours? 
 
+## Design
+My app consists of five screens: Homepage, questions 1-3, and the end screen. 
+
+Below are some pictures of what the initial design looked like:
+
+<img src="https://lwu1822.github.io/CSP-fastpages/images/w3AppLabPlan-appLabOriginalText.jpg" alt="Original homepage" width="143" height="200">
+
+<img src="https://lwu1822.github.io/CSP-fastpages/images/w3AppLabPlan-appLabOriginalAnswer.jpg" alt="Original text" width="140" height="179">
+
+
+
 ## Coding
 
 ### Explanations of code
